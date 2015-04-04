@@ -5,10 +5,10 @@
 		<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,600' rel='stylesheet' type='text/css'>
 	</head>
 	<div class = "page">
-		<div class = "front">
+		<div class = "top">
 			<h1><a href="index.html">Smart Home Technology</a></h1>
 		</div>
-		<div class = "hMenu">
+		<div class = "vMenu">
 			<ul>
 				<li><a href="overview.html">Overview</a></li>
 				<li><a href="benefits.html">Benefits</a></li>
@@ -17,8 +17,29 @@
 				<li><a href="numbers.html">Numbers</a></li>
 			</ul>
 		</div>
-		<div class = "frontBody">
-			<p>Introduction paragraph describing the site. </p>
+		<div class = "body">
+			<p>Database information will go here when it is working.</p>
+			<?php
+			mysql_connect("localhost", "root", "pass") or die (mysql_error ());
+			mysql_select_db("smarthome") or die(mysql_error());
+
+			// SQL query
+			$strSQL = "SELECT * FROM table1";
+
+			// Execute the query (the recordset $rs contains the result)
+			$rs = mysql_query($strSQL);
+			
+			// Loop the recordset $rs
+			// Each row will be made into an array ($row) using mysql_fetch_array
+			while($row = mysql_fetch_array($rs))
+			{
+				// Write the value of the column FirstName (which is now in the array $row)
+				echo $row['FirstName'];
+			}
+
+			// Close the database connection
+			mysql_close();
+			?>
 		</div>
 	</div>
 	<div class = "footer">
