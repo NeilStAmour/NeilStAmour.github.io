@@ -141,6 +141,28 @@ html, body
 {
 	margin-bottom:10px;
 }
+#lightingMoneyResult, #coolingMoneyResult, #heatingMoneyResult, #lightingEnergyResult, #coolingEnergyResult, #heatingEnergyResult
+{
+	text-align: center
+}
+.body button
+{
+	background: #21634e;
+	background-image: -webkit-linear-gradient(top, #21634e, #2d8749);
+	background-image: -moz-linear-gradient(top, #21634e, #2d8749);
+	background-image: -ms-linear-gradient(top, #21634e, #2d8749);
+	background-image: -o-linear-gradient(top, #21634e, #2d8749);
+	background-image: linear-gradient(to bottom, #21634e, #2d8749);
+	-webkit-border-radius: 28;
+	-moz-border-radius: 28;
+	border-radius: 20px;
+	color: #ffffff;
+	width: 100%;
+	padding: 5px 5px 5px 5px;
+	margin-bottom:3px;
+	text-decoration: none;
+	border: none;
+}
 .footer
 {
 	height:50px;

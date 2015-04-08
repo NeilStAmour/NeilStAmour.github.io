@@ -3,6 +3,9 @@
 	<head>
 		<link rel="stylesheet" type="text/css" href="css/mystyle.css">
 		<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,600' rel='stylesheet' type='text/css'>
+		<script type="text/javascript"
+			src="javascript.js">
+		</script> 
 	</head>
 	<div class = "page">
 		<div class = "top">
@@ -18,29 +21,72 @@
 			</ul>
 		</div>
 		<div class = "body">
-			<p>Database information will go here when it is working.</p>
-			<?php
-			mysql_connect("localhost", "root", "pass") or die (mysql_error ());
-			mysql_select_db("smarthome") or die(mysql_error());
+		<h2>Numbers</h2>
+		<p>Now the question that many individuals have is how much money will this actually save me? How much oil will not be burned because of my actions? These questions are easy to answer with just a little information from you. If you provide a baseline of your electricity bill and your lifestyle habits then we can provide you with some real numbers to show what kind of a difference you can make. Keep in mind that these numbers will quickly add up over time, especially with more and more people adopting these solutions.</p>
+		<p>Monthly electricity cost $<input id="cost" type="text"/></p>
 
-			// SQL query
-			$strSQL = "SELECT * FROM table1";
-
-			// Execute the query (the recordset $rs contains the result)
-			$rs = mysql_query($strSQL);
-			
-			// Loop the recordset $rs
-			// Each row will be made into an array ($row) using mysql_fetch_array
-			while($row = mysql_fetch_array($rs))
-			{
-				// Write the value of the column FirstName (which is now in the array $row)
-				echo $row['FirstName'];
-			}
-
-			// Close the database connection
-			mysql_close();
-			?>
-		</div>
+		<table width="100%" border="0">
+			<tr>
+				<th>How diligent  are you in turning off your lights?</th>
+				<th>How comfortable are you in warmer temperatures?</th>
+				<th>How comfortable are you in colder temperatures?</th>
+			</tr>
+			<tr>
+				<td>
+				<button type="button" value="Perfect" onClick="lightingBest()">Perfect</button><br>
+				<button type="button" value="Above Average" onClick="lightingBetter()">Above Average</button><br>
+				<button type="button" value="Average" onClick="lightingAve()">Average</button><br>
+				<button type="button" value="Below Average" onClick="lightingBad()">Below Average</button><br>
+				<button type="button" value="Forgetful" onClick="lightingWorst()">Forgetful</button>
+				</td>
+				<td>
+				<button type="button" value="Perfect" onClick="coolingBest()">More than Most</button><br>
+				<button type="button" value="Above Average" onClick="coolingBetter()">Above Average</button><br>
+				<button type="button" value="Average" onClick="coolingAve()">Average</button><br>
+				<button type="button" value="Below Average" onClick="coolingBad()">Below Average</button><br>
+				<button type="button" value="Forgetful" onClick="coolingWorst()">Less than Most</button>
+				</td>
+				<td>
+				<button type="button" value="Perfect" onClick="heatingBest()">More than Most</button><br>
+				<button type="button" value="Above Average" onClick="heatingBetter()">Above Average</button><br>
+				<button type="button" value="Average" onClick="heatingAve()">Average</button><br>
+				<button type="button" value="Below Average" onClick="heatingBad()">Below Average</button><br>
+				<button type="button" value="Forgetful" onClick="heatingWorst()">Less than Most</button>
+				</td>
+			</tr>
+			<tr>
+				<td>&nbsp;</td>
+				<td>&nbsp;</td>
+				<td>&nbsp;</td>
+			</tr>
+		</table>
+		<table width="100%" border="0">
+			<tr>
+				<th width='60%'> </th>
+				<th width='20%'>Money</th>
+				<th width='20%'>Energy</th>
+			</tr>
+			<tr>
+				<td>
+				<p>Monthly savings from lighting:</p>
+				<p>Monthly savings from cooling:</p>
+				<p>Monthly savings from heating:</p>
+				<p>Total:</p>
+				</td>
+				<td>
+				<p><p id="lightingMoneyResult" />$0.00</p>
+				<p><p id="coolingMoneyResult" />$0.00</p>
+				<p><p id="heatingMoneyResult" />$0.00</p>
+				<p><p id="totalMoneyResult" />$0.00</p>
+				</td>
+				<td>
+				<p><p id="lightingEnergyResult" />0kWh</p>
+				<p><p id="coolingEnergyResult" />0kWh</p>
+				<p><p id="heatingEnergyResult" />0kWh</p>
+				<p><p id="totalEnergyResult" />0kWh</p>
+				</td>
+			</tr>
+		</table>
 	</div>
 	<div class = "footer">
 		<ul>
