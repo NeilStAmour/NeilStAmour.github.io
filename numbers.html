@@ -16,14 +16,23 @@
 				<li><a href="overview.html">Overview</a></li>
 				<li><a href="benefits.html">Benefits</a></li>
 				<li><a href="examples.html">Examples</a></li>
-				<li><a href="requirements.html">Requirements</a></li>
 				<li><a href="numbers.html">Numbers</a></li>
+				<li><a href="requirements.html">Resources</a></li>
 			</ul>
 		</div>
 		<div class = "body">
 		<h2>Numbers</h2>
-		<p>Now the question that many individuals have is how much money will this actually save me? How much oil will not be burned because of my actions? These questions are easy to answer with just a little information from you. If you provide a baseline of your electricity bill and your lifestyle habits then we can provide you with some real numbers to show what kind of a difference you can make. Keep in mind that these numbers will quickly add up over time, especially with more and more people adopting these solutions.</p>
+		<p>Now the question that many individuals have is how much money will this actually save me? How much energy will be saved by this technology? These questions are easy to answer with just a little information from you. If you provide a baseline of your electricity bill and your lifestyle habits then we can provide you with some real numbers to show what kind of a difference you can make. Keep in mind that these numbers will quickly add up over time, especially with more and more people adopting these solutions.
+		</p>
+		<h4><b>First</b>, enter an estimate of your monthly electricity bill.
+		</h4>
+		<h4><b>Second</b>, select an appropriate response to each of the three questions, if you are unsure just select average.
+		</h4>
+		<h4><b>Finally</b>, hit the calculate button and you will see some estimates at the bottom of the page.
+		</h4>
+		<button id="calc" type="button" onClick="calculate()">Calculate</button><br>
 		<p>Monthly electricity cost $<input id="cost" type="text"/></p>
+		
 
 		<table width="100%" border="0">
 			<tr>
@@ -60,41 +69,57 @@
 				<td>&nbsp;</td>
 			</tr>
 		</table>
+		<p>Potential energy savings every year
 		<table width="100%" border="0">
 			<tr>
-				<th width='60%'> </th>
-				<th width='20%'>Money</th>
-				<th width='20%'>Energy</th>
+				<th>Lighting</th>
+				<th>Heating</th>
+				<th>Cooling</th>
 			</tr>
 			<tr>
 				<td>
-				<p>Monthly savings from lighting:</p>
-				<p>Monthly savings from cooling:</p>
-				<p>Monthly savings from heating:</p>
-				<p>Total:</p>
+				<p id="lightingEnergyResult"/>0kWh</p>
 				</td>
 				<td>
-				<p><p id="lightingMoneyResult" />$0.00</p>
-				<p><p id="coolingMoneyResult" />$0.00</p>
-				<p><p id="heatingMoneyResult" />$0.00</p>
-				<p><p id="totalMoneyResult" />$0.00</p>
+				<p id="coolingEnergyResult"/>0kWh</p>
 				</td>
 				<td>
-				<p><p id="lightingEnergyResult" />0kWh</p>
-				<p><p id="coolingEnergyResult" />0kWh</p>
-				<p><p id="heatingEnergyResult" />0kWh</p>
-				<p><p id="totalEnergyResult" />0kWh</p>
+				<p id="heatingEnergyResult"/>0kWh</p>
 				</td>
 			</tr>
 		</table>
+		<p>Potential financial savings every year
+		<table width="100%" border="0">
+			<tr>
+				<th>Lighting</th>
+				<th>Heating</th>
+				<th>Cooling</th>
+			</tr>
+			<tr>
+				<td>
+				<p id="lightingMoneyResult"/>0kWh</p>
+				</td>
+				<td>
+				<p id="coolingMoneyResult"/>0kWh</p>
+				</td>
+				<td>
+				<p id="heatingMoneyResult"/>0kWh</p>
+				</td>
+			</tr>
+		</table>
+	</div>
+	<div class = "var">
+		<p id = "lights"/></p>
+		<p id = "cooling"/></p>
+		<p id = "heating"/></p>
 	</div>
 	<div class = "footer">
 		<ul>
 			<li><a href="overview.html">Overview</a></li>
 			<li><a href="benefits.html">Benefits</a></li>
 			<li><a href="examples.html">Examples</a></li>
-			<li><a href="requirements.html">Requirements</a></li>
 			<li><a href="numbers.html">Numbers</a></li>
+			<li><a href="requirements.html">Resources</a></li>
 		</ul>
 	</div>
 </html>
