@@ -12,6 +12,9 @@
         if(isset($_POST['g-recaptcha-response']))
 			$captcha=$_POST['g-recaptcha-response'];
 
+		
+		mail("neil.stamour@gmail.com", "test", $message);
+		
         if(!$captcha){
           echo '<h2>Please check the the captcha form.</h2>';
 				exit;
