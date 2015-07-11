@@ -1,6 +1,9 @@
 <?php
-	$siteKey = '6LcHiAkTAAAAAE4sAYMiuobxfiOsSjtOCRG2rRGo'
-	$secret = '6LcHiAkTAAAAAND2B6zOlUXbEFy_KF3EumsWMec9'
+	$siteKey = '6LcHiAkTAAAAAE4sAYMiuobxfiOsSjtOCRG2rRGo';
+	$secret = '6LcHiAkTAAAAAND2B6zOlUXbEFy_KF3EumsWMec9';
+	$to = "neil.stamour@gmail.com";
+	$subject = "NeilStAmour.me";
+	$headers = "";
 
         $name;$email;$message;$captcha;
         if(isset($_POST['name']))
@@ -13,7 +16,7 @@
 			$captcha=$_POST['g-recaptcha-response'];
 
 		
-		mail("neil.stamour@gmail.com", "test", "testtest", "From: FirstName LastName <neil.stamour@gmailcom>");
+		mail($to, $subject, $message, $headers);
 		
         if(!$captcha){
           echo '<h2>Please check the the captcha form.</h2>';
