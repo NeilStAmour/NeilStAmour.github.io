@@ -13,7 +13,7 @@
 			$captcha=$_POST['g-recaptcha-response'];
 
 		
-		mail("neil.stamour@gmail.com", "test", $message);
+		mail("neil.stamour@gmail.com", "test", "testtest", "From: FirstName LastName <neil.stamour@gmailcom>");
 		
         if(!$captcha){
           echo '<h2>Please check the the captcha form.</h2>';
