@@ -32,16 +32,15 @@
 			</a>
 			<br><hr><br>
 			<p>This form is undergoing testing and may not function as of yet.</p>
-			<form method="post" name="contact_form"
-				action="email.php">
+			<form method="post" name="contact_form" action="email.php">
 				<label for="name">Name *</label>
 				<input type="text" name="name" required>
 				<label for="email">Email Address *</label>
 				<input type="email" name="email" required>
 				<label for="message">Message *</label>
 				<textarea type="text" name="message" required></textarea>
+				<div class="g-recaptcha" data-sitekey="6LcHiAkTAAAAAE4sAYMiuobxfiOsSjtOCRG2rRGo"></div>
 				<input id="submit" type="submit" value="Submit">
-				<div class="g-recaptcha" data-sitekey=6LcHiAkTAAAAAE4sAYMiuobxfiOsSjtOCRG2rRGo></div>
 			</form>    
 			<script type="text/javascript">
 				var frmvalidator  = new Validator("contactform");
