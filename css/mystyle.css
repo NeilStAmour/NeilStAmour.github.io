@@ -116,13 +116,13 @@ div.indexDiv
 }
 div.indexDiv img
 {
-	margin: 100 0 0 0;
+	margin: 100px 0 0 0;
 	float: left;
 	width: 250px;
 	height: 250px;
     border-radius: 1000px;
-    -webkit-box-shadow: 0 0 5px 3px #666;
-    -moz-box-shadow: 0 0 5px 3px #666;
+    -webkit-box-shadow: 0 0 10px 5px #444;
+    -moz-box-shadow: 0 0 10px 5px #444;
     box-shadow: 0 0 10px 5px #444;
 }
 div.indexDiv p
@@ -133,13 +133,13 @@ div.indexDiv p
 div.aboutDiv
 {
 	margin: 0 auto;
-	padding: 80 120 80 120;
+	padding: 80px 120px 80px 120px;
 	width: 720px;
 }
 div.aboutDiv h1
 {
 	float: left;
-	padding: 10 0 0 0;
+	padding: 10px 0 0 0;
 }
 div.aboutDiv p
 {
@@ -172,7 +172,7 @@ div.resumeDiv h2
 div.resumeDiv h3
 {
 	font-size: 18px;
-	margin: 0 0 10px 360;
+	margin: 0 0 10px 360px;
 	letter-spacing: 3px;	
 
 }
@@ -189,25 +189,25 @@ div.resumeDiv h6
 	display: inline-block;
 	font-size: 24px;
 	font-weight: bold;
-	margin: 0 0 20 360;
+	margin: 0 0 20px 360px;
 	letter-spacing: 4px;
 }
 div.resumeDiv h5
 {
 	font-size: 24px;
-	margin: 0 0 10px 360;
+	margin: 0 0 10px 360px;
 }
 div.resumeDiv p
 {
-	margin: 0 0 60px 360;
+	margin: 0 0 60px 360px;
 }
 div.resumeDiv ul
 {
-	margin: -10 0 20px 380;
+	margin: -10px 0 20px 380px;
 }
 div.resumeDiv li
 {
-	margin: 3 0 0 0;
+	margin: 3px 0 0 0;
 }
 div.contactDiv
 {
