@@ -5,48 +5,48 @@
 		<link href='http://fonts.googleapis.com/css?family=Julius+Sans+One|Open+Sans:300' rel='stylesheet' type='text/css'>
 		<link href="images/user-32.ico" rel="shortcut icon" />
 	</head>
-	<div class = "top">
-		<div class = "header">
-			<ul>
-				<li><a href="index">Neil</a></li>
-				<li><a href="about">About</a></li>
-				<li><a href="resume">Resume</a></li>
-				<li><a id="current" href="contact">Contact</a></li>
-			</ul>
+	<body>
+		<div class = "page">
+			<div class = "top">
+				<div class = "header">
+					<ul>
+						<li><a href="index">Neil</a></li>
+						<li><a href="about">About</a></li>
+						<li><a href="resume">Resume</a></li>
+						<li><a id="current" href="contact">Contact</a></li>
+					</ul>
+				</div>
+				<h1>Neil St. Amour</h1>
+				<h2>Developer</h2>
+				<h3>Adaptive, Creative, Collaborative</h3>
+			</div>
+			<div class = "contactDiv">
+				<h1>Contact</h1>
+				<h2>Neil St. Amour</h2>
+				<a href="mailto:neil.stamour@gmail.com" target="blank_">
+					<img src="images/emailB.png" alt="mailto:neil.stamour@gmail.com">
+				</a>
+				<a href="https://www.linkedin.com/in/neilstamour" target="blank_">
+					<img src="images/linkedinB.png" alt="https://www.linkedin.com/in/neilstamour">
+				</a>
+				<br><hr><br>
+				<p>This form is undergoing testing and may not function as of yet.</p>
+				
+				<form action="http://formspree.io/neil.stamour@gmail.com"
+					  method="POST">
+					<label for="name">Name *</label>
+					<input type="text" name="_gotcha" style="display:none" />
+					<input type="text" name="name" required>
+					<label for="email">Email Address *</label>
+					<input type="email" name="_replyto" required>
+					<label for="message">Message *</label>
+					<textarea type="text" name="body" required></textarea>
+					<input type="hidden" name="_next" value="thanks" />
+					<input id="submit" type="submit" value="Send">
+				</form> 
+			<div class = "push"></div>
 		</div>
-		<h1>Neil St. Amour</h1>
-		<h2>Developer</h2>
-		<h3>Adaptive, Creative, Collaborative</h3>
-	</div>
-	<div class = "body">
-		<div class = "contactDiv">
-			<h1>Contact</h1>
-			<h2>Neil St. Amour</h2>
-			<a href="mailto:neil.stamour@gmail.com" target="blank_">
-				<img src="images/emailB.png" alt="mailto:neil.stamour@gmail.com">
-			</a>
-			<a href="https://www.linkedin.com/in/neilstamour" target="blank_">
-				<img src="images/linkedinB.png" alt="https://www.linkedin.com/in/neilstamour">
-			</a>
-			<br><hr><br>
-			<p>This form is undergoing testing and may not function as of yet.</p>
-			
-			<form action="http://formspree.io/neil.stamour@gmail.com"
-				  method="POST">
-				<label for="name">Name *</label>
-				<input type="text" name="_gotcha" style="display:none" />
-				<input type="text" name="name" required>
-				<label for="email">Email Address *</label>
-				<input type="email" name="_replyto" required>
-				<label for="message">Message *</label>
-				<textarea type="text" name="body" required></textarea>
-				<input type="hidden" name="_next" value="thanks" />
-				<input id="submit" type="submit" value="Send">
-			</form> 
-		</div>
-	</div>
-	<div class = "footer">
-		<div class = "footerText">
+		<div class = "footer">
 			<a href="mailto:neil.stamour@gmail.com" target="blank_">
 				<img src="images/emailW.png" alt="mailto:neil.stamour@gmail.com">
 			</a>
@@ -55,5 +55,5 @@
 			</a>
 			<p>Copyright 2015 Neil St. Amour. All rights reserved.</p>
 		</div>
-	</div>
+	</body>
 </html>
