@@ -90,6 +90,20 @@ div.top h3
 	font-family: 'Julius Sans One', sans-serif;
 	letter-spacing: 5px;
 }
+div.top h4
+{
+	padding-top: 220px;
+	font-size: 2em;
+	color: #fff;	
+	text-align: center;
+}
+div.top h5
+{
+	padding-top: 30px;
+	font-size: 1.8em;
+	color: #fff;	
+	text-align: center;
+}
 div.top img
 {
 	top: 0;
@@ -243,12 +257,14 @@ div.contactDiv input
 	width: 540px;
 	margin: 0 0 0 0;
 	padding: 0 0 0 10px;
+	border: 1px solid #444;
 	font-size: 24px;
 }
 div.contactDiv textarea
 {
 	margin: 0 0 0 0;
 	padding: 10px 0 0 10px;
+	border: 1px solid #444;
 	height: 200px;
 	width: 540px;
 }
@@ -280,6 +296,20 @@ div.g-recaptcha
 	color: #fff;
 	background-color: #444;
 	border: 2px solid #444;
+}
+div.thanksDiv
+{
+	width: 600px;
+	margin: auto;
+	padding: 300px 180px 100px 180px;
+}
+div.thanksDiv h1
+{
+	
+}
+div.thanksDiv h2
+{
+	
 }
 
 div.footer
