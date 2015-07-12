@@ -121,13 +121,14 @@ hr
 .aboutDiv
 {
 	margin: 0 auto;
-	padding: 80px 120px 80px 120px;
+	padding: 80px 120px;
 	width: 720px;
 }
 .aboutDiv h1
 {
 	float: left;
-	padding: 10px 0 0 0;
+	padding: 20px 0 0 0;
+	letter-spacing: 0.15em;
 }
 .aboutDiv p
 {
@@ -136,17 +137,15 @@ hr
 .resumeDiv
 {
 	margin: 0 auto;
-	padding: 100px 120px 100px 120px;
+	padding: 100px 120px;
 	width: 720px;
-	min-height: 100px;
-	/*background-color:#4f8;*/
 }
 .resumeDiv h1
 {
 	display: inline-block;
 	width: 353px;
 	font-size: 1.8em;
-	margin: 0 0 20px -0;
+	margin: 0 0 0.5em 0;
 	letter-spacing: 0.3em;
 }
 .resumeDiv h2
@@ -154,14 +153,14 @@ hr
 	display: inline-block;
 	font-size: 1.6em;
 	font-weight: bold;
-	margin: 0 0 20px 0px;
+	margin: 0 0 0.5em 0;
 	letter-spacing: 0.15em;
 }
 .resumeDiv h3
 {
 	font-size: 1.2em;
 	padding-bottom: 10px;
-	margin: 0 0 0px 360px;
+	margin: 0 0 0 360px;
 	letter-spacing: 0.15em;
 
 }
@@ -170,8 +169,8 @@ hr
 	display: inline-block;
 	font-size: 1.6em;
 	font-weight: bold;
-	padding-bottom: 10px;
-	margin: 0 0 0px 0;
+	padding-bottom: 0.5em;
+	margin: 0 0 0 0;
 	letter-spacing: 0.15em;
 }
 .resumeDiv h6
@@ -179,31 +178,31 @@ hr
 	display: inline-block;
 	font-size: 1.6em;
 	font-weight: bold;
-	padding-bottom: 20px;
-	margin: 0 0 0px 360px;
+	padding-bottom: 0.5em;
+	margin: 0 0 0 360px;
 	letter-spacing: 0.15em;
 }
 .resumeDiv h5
 {
 	font-size: 1.5em;
-	padding-bottom: 10px;
-	margin: 0 0 0px 360px;
+	padding-bottom: 0.5em;
+	margin: 0 0 0 360px;
 }
 .resumeDiv p
 {
-	padding-bottom: 60px;
-	margin: 0 0 0px 360px;
+	padding-bottom: 4em;
+	margin: 0 0 0 360px;
 }
 .resumeDiv ul
 {
-	padding: 0px 0 20px 0;
-	margin: 0px 0 0px 380px;
+	padding: 0 0 1.4em 0;
+	margin: 0 0 0 380px;
 }
 .resumeDiv li
 {
 	padding: 3px 0 0 0;
 }
-.contactDiv
+.contactDiv, .contactDiv
 {
 	width: 600px;
 	margin: auto;
@@ -212,14 +211,14 @@ hr
 .contactDiv h1
 {
 	font-size: 2.4em;
-	padding-bottom: 40px;
-	margin: 0 0 0px 20px;
-	letter-spacing: 10px;
+	padding-bottom: 1.4em;
+	margin: 0 0 0 2em;
+	letter-spacing: 0.25em;
 }
 .contactDiv h2
 {
 	font-size: 2em;
-	padding: 0 0 20px 0;
+	padding: 0 0 0.8em 0;
 }
 .contactDiv a
 {
@@ -235,7 +234,6 @@ hr
 {
 	height: 2.4em;
 	width: 540px;
-	margin: 0 0 0 0;
 	padding: 0 0 0 10px;
 	border: 0.05em solid #444;
 	font-size: 1.4em;
@@ -243,7 +241,6 @@ hr
 }
 .contactDiv textarea
 {
-	margin: 0 0 0 0;
 	padding: 10px 0 0 10px;
 	border: 0.05em solid #444;
 	height: 16em;
@@ -252,32 +249,34 @@ hr
 
 .contactDiv label
 {
-	padding: 0 0 0 0;
+	font-size: 1.4em;
 	display: block;
-	padding-top: 20px;
-	padding-bottom: 10px;
+	padding-top: 0.6em;
+	padding-bottom: 0.8em;
 }
 #submit
 {
-	margin: 20px 0 0 0;
+	margin: 1em 0 0 0;
 	padding: 0;
 	width: 200px;
 	height: 60px;
 	font-size: 1.4em;
 	background-color: #fff;
-	border: 0.1em solid #444;
+	border: 0.05em solid #444;
 }
 #submit:hover
 {
 	color: #fff;
 	background-color: #444;
-	border: 0.1em solid #444;
+	border: 0.05em solid #444;
 }
-.thanksDiv
+.contactDiv p
 {
-	width: 600px;
-	margin: auto;
-	padding: 300px 180px 100px 180px;
+	padding: 1.6em;
+	font-size: 1.2em;
+	border: 0.1em solid #444;
+	background-color: #00ff66;
+	border-radius: 1em;
 }
 .push
 {
@@ -302,7 +301,7 @@ hr
 }
 .footer p
 {
-	padding: 20px 0 0 0;
+	padding: 1.4em 0 0 0;
 	color: #bbb;
 	font-size: 0.9em;
 	letter-spacing: 0.1em;
