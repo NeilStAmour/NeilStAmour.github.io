@@ -35,9 +35,14 @@
 			
 			<form action="http://formspree.io/neil.stamour@gmail.com"
 				  method="POST">
-				<input type="text" name="name">
-				<input type="email" name="_replyto">
-				<input type="submit" value="Send">
+				<label for="name">Name *</label>
+				<input type="text" name="_gotcha" style="display:none" />
+				<input type="text" name="name" required>
+				<label for="email">Email Address *</label>
+				<input type="email" name="_replyto" required>
+				<label for="message">Message *</label>
+				<textarea type="text" name="body" required></textarea>
+				<input id="submit" type="submit" value="Send">
 			</form> 
 		</div>
 	</div>
