@@ -3,9 +3,9 @@
 	margin: 0;
 	padding: 0;
 	border: 0;
-    font-family: 'Open Sans', sans-serif;
+  font-family: 'Open Sans', sans-serif;
 	text-decoration: none;
-	letter-spacing: 3px;
+	letter-spacing: 0.2em;
 	font-weight: normal;
 }
 html, body
@@ -20,10 +20,9 @@ html, body
 	height: 100%;
 	margin: 0 auto -120px; /* the bottom margin is the negative value of the footer's height */
 }
-hr /*compatibility?*/
+hr
 {
-	border: 0; 
-	height: 1px; 
+	height: 0.05em;
 	background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
 }
 .header
@@ -32,13 +31,13 @@ hr /*compatibility?*/
 	top: 0;
 	left: 0;
 	width: 100%;
-	height: 100px;
+	height: 6em;
 	background: rgba(0, 0, 0, 0.7);
 }
 .header ul
 {
 	text-align: center;
-	padding-top: 40px;
+	padding-top: 2.2em;
 }
 .header li
 {
@@ -47,10 +46,11 @@ hr /*compatibility?*/
 .header li a
 {
 	padding: 0.6em 1.2em 0.6em 1.2em;
-	margin-left: 20px;
+	margin-left: 1.8em;
 	color: #fff;
-	border: 2px solid #fff;
-	letter-spacing: 5px;
+	border: 0.1em solid #fff;
+	letter-spacing: 0.3em;
+	font-size: 1em;
 }
 .header li a:hover, #current
 {
@@ -61,48 +61,32 @@ hr /*compatibility?*/
 {
 	width: 100%;
 	height: 500px;
-	background-color: #0065DB;
-    background-image: url("../images/splash0.jpg");
+	background-color: #0065DB; /*Jellyfish colour*/
+  background-image: url("../images/splash0.jpg");
+}
+
+.top h1, .top h2, .top h3
+{
+	color: #fff;
+	font-family: 'Julius Sans One', sans-serif;
+	text-align: center;
 }
 .top h1
 {
-	padding-top: 220px;
+	padding-top: 4.5em;
 	font-size: 3em;
-	color: #fff;
-	text-align: center;
-	font-family: 'Julius Sans One', sans-serif;
-	letter-spacing: 20px;
+	letter-spacing: 0.5em;
 }
 .top h2
 {
 	font-size: 2.5em;
-	color: #fff;
-	text-align: center;
-	font-family: 'Julius Sans One', sans-serif;
-	letter-spacing: 15px;
+	letter-spacing: 0.4em;
 }
 .top h3
 {
-	padding-top: 35px;
+	padding-top: 1.6em;
 	font-size: 1.8em;
-	color: #fff;	
-	text-align: center;
-	font-family: 'Julius Sans One', sans-serif;
-	letter-spacing: 5px;
-}
-.top h4
-{
-	padding-top: 220px;
-	font-size: 2em;
-	color: #fff;	
-	text-align: center;
-}
-.top h5
-{
-	padding-top: 30px;
-	font-size: 1.8em;
-	color: #fff;	
-	text-align: center;
+	letter-spacing: 0.2em;
 }
 .top img
 {
@@ -111,14 +95,12 @@ hr /*compatibility?*/
 .body
 {
 	width: 100%;
-	background: #fff;
 }
 .indexDiv
 {
 	margin: 0 auto;
-	padding: 100px 120px 100px 120px;
+	padding: 80px 0;
 	width: 720px;
-	min-height: 100px;
 }
 .indexDiv img
 {
@@ -126,15 +108,15 @@ hr /*compatibility?*/
 	float: left;
 	width: 250px;
 	height: 250px;
-    border-radius: 1000px;
-    -webkit-box-shadow: 0 0 10px 5px #444;
-    -moz-box-shadow: 0 0 10px 5px #444;
-    box-shadow: 0 0 10px 5px #444;
+  border-radius: 1000px;
+  -webkit-box-shadow: 0 0 10px 5px #444;
+  -moz-box-shadow: 0 0 10px 5px #444;
+  box-shadow: 0 0 10px 5px #444;
 }
 .indexDiv p
 {
 	padding: 0px 60px 60px 320px;
-	font-size: 20px;
+	font-size: 1.4em;
 }
 .aboutDiv
 {
@@ -163,47 +145,47 @@ hr /*compatibility?*/
 {
 	display: inline-block;
 	width: 353px;
-	font-size: 28px;
+	font-size: 1.8em;
 	margin: 0 0 20px -0;
-	letter-spacing: 10px;
+	letter-spacing: 0.3em;
 }
 .resumeDiv h2
 {
 	display: inline-block;
-	font-size: 24px;
+	font-size: 1.6em;
 	font-weight: bold;
 	margin: 0 0 20px 0px;
-	letter-spacing: 4px;
+	letter-spacing: 0.15em;
 }
 .resumeDiv h3
 {
-	font-size: 18px;
+	font-size: 1.2em;
 	padding-bottom: 10px;
 	margin: 0 0 0px 360px;
-	letter-spacing: 3px;	
+	letter-spacing: 0.15em;
 
 }
 .resumeDiv h4
 {
 	display: inline-block;
-	font-size: 24px;
+	font-size: 1.6em;
 	font-weight: bold;
 	padding-bottom: 10px;
 	margin: 0 0 0px 0;
-	letter-spacing: 4px;
+	letter-spacing: 0.15em;
 }
 .resumeDiv h6
 {
 	display: inline-block;
-	font-size: 24px;
+	font-size: 1.6em;
 	font-weight: bold;
 	padding-bottom: 20px;
 	margin: 0 0 0px 360px;
-	letter-spacing: 4px;
+	letter-spacing: 0.15em;
 }
 .resumeDiv h5
 {
-	font-size: 24px;
+	font-size: 1.5em;
 	padding-bottom: 10px;
 	margin: 0 0 0px 360px;
 }
@@ -229,14 +211,14 @@ hr /*compatibility?*/
 }
 .contactDiv h1
 {
-	font-size: 36px;
+	font-size: 2.4em;
 	padding-bottom: 40px;
 	margin: 0 0 0px 20px;
 	letter-spacing: 10px;
 }
 .contactDiv h2
 {
-	font-size: 30px;
+	font-size: 2em;
 	padding: 0 0 20px 0;
 }
 .contactDiv a
@@ -251,19 +233,20 @@ hr /*compatibility?*/
 }
 .contactDiv input
 {
-	height: 60px;
+	height: 2.4em;
 	width: 540px;
 	margin: 0 0 0 0;
 	padding: 0 0 0 10px;
-	border: 1px solid #444;
-	font-size: 24px;
+	border: 0.05em solid #444;
+	font-size: 1.4em;
+	letter-spacing: 0.1em;
 }
 .contactDiv textarea
 {
 	margin: 0 0 0 0;
 	padding: 10px 0 0 10px;
-	border: 1px solid #444;
-	height: 200px;
+	border: 0.05em solid #444;
+	height: 16em;
 	width: 540px;
 }
 
@@ -280,15 +263,15 @@ hr /*compatibility?*/
 	padding: 0;
 	width: 200px;
 	height: 60px;
-	font-size: 20px;
+	font-size: 1.4em;
 	background-color: #fff;
-	border: 2px solid #444;
+	border: 0.1em solid #444;
 }
 #submit:hover
 {
 	color: #fff;
 	background-color: #444;
-	border: 2px solid #444;
+	border: 0.1em solid #444;
 }
 .thanksDiv
 {
@@ -314,13 +297,13 @@ hr /*compatibility?*/
 	opacity: 0.6;
 }
 .footer a:hover
-{	
+{
 	opacity: 1;
 }
 .footer p
 {
 	padding: 20px 0 0 0;
 	color: #bbb;
-	font-size: 12px;
-	letter-spacing: 2px;
+	font-size: 0.9em;
+	letter-spacing: 0.1em;
 }
