@@ -64,7 +64,6 @@ hr
 	background-color: #0065DB; /*Jellyfish colour*/
   background-image: url("../images/splash0.jpg");
 }
-
 .top h1, .top h2, .top h3
 {
 	color: #fff;
@@ -246,7 +245,6 @@ hr
 	height: 16em;
 	width: 540px;
 }
-
 .contactDiv label
 {
 	font-size: 1.4em;
