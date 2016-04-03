@@ -3,25 +3,30 @@
 	margin: 0;
 	padding: 0;
 	border: 0;
-    font-family: 'lumberjack';
 	text-decoration: none;
     letter-spacing: 0.08em;
 }
 @font-face 
 {
     font-family: 'lumberjack';
-    src: url('../font/lumberjack/Lumberjack.otf');
+    src: url('../font/lumberjack/lumberjack.otf');
+    font-weight: normal;
+    font-style: normal;
 }
 @font-face 
 {
     font-family: 'lumberjack rough';
-    src: url('../font/lumberjack/Lumberjack Rough.otf');
+    src: url('../font/lumberjack/lumberjack rough.otf');
+    font-weight: normal;
+    font-style: normal;
 }
+
 html
 {
 	background-color: #eee;
 	width: 100%;
 	height: 100%;
+    font-family: 'lumberjack';
 }
 html, body
 {
