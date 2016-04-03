@@ -1,0 +1,362 @@
+*
+{
+	margin: 0;
+	padding: 0;
+	border: 0;
+    font-family: 'lumberjack';
+	text-decoration: none;
+    letter-spacing: 0.08em;
+}
+@font-face 
+{
+    font-family: 'lumberjack';
+    src: url('../font/lumberjack/lumberjack.otf');
+}
+@font-face 
+{
+    font-family: 'lumberjack rough';
+    src: url('../font/lumberjack/lumberjack rough.otf');
+}
+html
+{
+	background-color: #eee;
+	width: 100%;
+	height: 100%;
+}
+html, body
+{
+	max-width: 1800px;
+    min-width: 800px;
+	margin: auto;
+}
+hr
+{
+	height: 0.05em;
+	background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+body
+{
+	background-color: #fff;
+    -webkit-box-shadow: 0 0 3px 2px #444;
+    -moz-box-shadow: 0 0 3px 2px #444;
+    box-shadow: 0 0 1px 2px #666;
+}
+.header
+{
+	background-color: #242424;
+	width: 100%;
+	max-width: inherit;
+	min-height: 100px;
+	position: fixed;
+    -webkit-box-shadow: 0 0 3px 2px #242424;
+    -moz-box-shadow: 0 0 3px 2px #242424;
+    box-shadow: 0 0 3px 2px #242424;
+}
+.header ul
+{
+	margin: auto;
+	margin-top: 20px;
+	text-align: center;
+	display: table;
+	table-layout: fixed;
+}
+.header li
+{
+	display: table-cell;
+}
+.header a
+{
+	background-color: #242424;
+	color: #ddd;
+	padding: 12px 0;
+	margin: 0 20px;
+	width: 120px;
+	display: block;
+	border: 1px solid #ddd;
+	letter-spacing: 0.05em;
+    font-size: 1.4em;
+}
+.header a:hover, #current
+{
+	background-color: #ddd;
+	color: #242424;
+}
+.top
+{
+	background-color: #484;
+	width: 100%;
+	height: 400px;
+    background-image: url("../images/splash1.jpg");
+}
+.top h1
+{
+    font-family: 'lumberjack rough';
+	font-size: 92px;
+    color: #222;
+    text-shadow: -1px 0 1px #fff, 0 1px 1px #fff, 1px 0 1px #fff, 0 -1px 1px #fff;
+    padding-top: 160px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    word-spacing: 0.2em;
+    font-weight: 700;
+}
+.indexBody
+{
+	width: 100%;
+    font-weight: 700;
+    font-size: 48px;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: #444;
+    margin: 40px 0 40px 0;
+}
+.indexBlock
+{
+	height: 380px;
+}
+.indexFloatLeft
+{
+	height: 340px;
+	float: left;
+	width: 49%;
+	text-align: right;
+}
+.indexFloatLeft p
+{
+	float: right;
+    text-align: center;
+}
+.indexFloatRight
+{
+	height: 340px;
+	float: right;
+	width: 49%;
+}
+.indexFloatRight p
+{
+    text-align: center;
+}
+.indexBlock img
+{
+    margin: 40px 40px 20px 40px;
+    border-radius: 1000px;
+    -webkit-box-shadow: 0 0 10px 5px #444;
+    -moz-box-shadow: 0 0 10px 5px #444;
+    box-shadow: 0 0 5px 3px #444;
+}
+.indexBlock p
+{
+	margin: 50px 0 10px 0;
+	height: 300px;
+	width: 400px;
+}
+.knivesBlock
+{
+	height: 382px;
+    width: auto;
+}
+.knivesFloatLeft
+{
+	float: left;
+	width: 44%;
+	text-align: right;
+    margin: 10px 0 0 0;
+}
+.knivesFloatLeft p
+{
+	margin: 30px 0 0px 0;
+	width: 100%;
+	float: right;
+    font-size: 32px;
+    font-weight: 700;
+    color: #333
+}
+.knivesFloatRight
+{
+	float: right;
+	width: 54%;
+}
+.knivesBlock img
+{
+	max-height: 360px;
+	width: auto;
+	margin: 10px 0 5px 0;
+    border-radius: 10px;
+    -webkit-box-shadow: 0 0 10px 5px #444;
+    -moz-box-shadow: 0 0 10px 5px #444;
+    box-shadow: 0 0 8px 4px #444;
+}
+.steelBody
+{
+	width: 100%;
+}
+.steelBlock
+{
+	border: 1px solid blue;
+	height: 300px;
+}
+.steelFloatLeft
+{
+	float: left;
+	border: 1px solid green;
+	width: 35%;
+	text-align: right;
+}
+.steelFloatLeft p
+{
+	float: right;
+}
+.steelFloatRight
+{
+	float: right;
+	border: 1px solid red;
+	width: 54%;
+	padding: 0 5% 0 5%;
+}
+.steelBlock img
+{
+	margin: 30px 0 30px 0;
+  border-radius: 1000px;
+  -webkit-box-shadow: 0 0 10px 5px #444;
+  -moz-box-shadow: 0 0 10px 5px #444;
+  box-shadow: 0 0 10px 5px #444;
+}
+.steelBlock p
+{
+	margin: 50px 0 30px 0;
+	height: 200px;
+	width: 400px;
+}
+.contactBody
+{
+	width: 100%;
+	text-align: center;
+}
+.contactBlock
+{
+	margin: 0 auto;
+	max-width: 800px;
+	text-align: center;
+	padding: 30px 0 0px 0;
+	text-align: left;
+}
+.contactBlock h1
+{
+	padding-left: 10px;
+}
+.contactBlock h2
+{
+	margin: 5px 10px 5px 10px;
+}
+.mailB
+{
+	margin: 5px 10px 5px 10px;
+	height: 32px;
+}
+.mailB a
+{
+	opacity: 1;
+}
+.mailB img
+{
+	float: left;
+}
+.mailB h1
+{
+	float: left;
+	font-size: 24px;
+	color: #000;
+}
+.mailB a:hover
+{
+	opacity: 0.7;
+}
+.phoneB
+{
+	margin: 5px 10px 5px 10px;
+	height: 32px;
+}
+.phoneB a
+{
+	opacity: 1;
+}
+.phoneB img
+{
+	float: left;
+}
+.phoneB h1
+{
+	float: left;
+	font-size: 24px;
+	color: #000;
+}
+.phoneB a:hover
+{
+	opacity: 0.7;
+}
+.contactBlock p
+{
+	text-align: left;
+	margin: 5px 10px 5px 10px;
+	font-size: 24px;
+}
+.contactBlock label
+{
+	margin: 0 0 0 10px;
+	font-size: 18px;
+	display: block;
+}
+.contactBlock input
+{
+	padding: 0 10px 0 10px;
+	margin: 0 0 0 10px;
+	border: 1px solid #444;
+	font-size: 1.4em;
+	letter-spacing: 0.1em;
+}
+.contactBlock textarea
+{
+	padding: 0 10px 0 10px;
+	margin: 0 0 0 10px;
+	border: 1px solid #444;
+	height: 300px;
+	width: 540px;
+}
+#submit
+{
+	margin: 10px 10px 10px 10px;
+	padding: 0;
+	width: 210px;
+	height: 60px;
+	font-size: 1.4em;
+	background-color: #fff;
+	border: 0.05em solid #444;
+}
+#submit:hover
+{
+	color: #fff;
+	background-color: #444;
+	border: 0.05em solid #444;
+}
+.contactBlock
+background-image: url("../images/splash0.jpg"); p
+{
+	padding: 1.6em;
+	font-size: 1.2em;
+	border: 0.1em solid #444;
+	background-color: #00ff66;
+	border-radius: 1em;
+}
+footer
+{
+	color: #fff;
+	background-color: #333;
+	width: 100%;
+	height: 70px;
+	text-align: center;
+	vertical-align: bottom;
+}
+footer p
+{
+	padding-top: 30px;
+}

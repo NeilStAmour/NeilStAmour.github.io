@@ -1,60 +1,64 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<title>Neil St. Amour</title>
-		<link rel="stylesheet" type="text/css" href="css/mystyle.css">
-		<link href='http://fonts.googleapis.com/css?family=Julius+Sans+One|Open+Sans:300' rel='stylesheet' type='text/css'>
-		<link href="images/user-32.ico" rel="shortcut icon" />
-	</head>
-	<body>
-		<div class = "page">
-			<div class = "top">
-				<div class = "header">
-					<ul>
-						<li><a href="index">Neil</a></li>
-						<li><a href="about">About</a></li>
-						<li><a href="resume">Resume</a></li>
-						<li><a id="current" href="contact">Contact</a></li>
-					</ul>
-				</div>
-				<h1>Neil St. Amour</h1>
-				<h2>Developer</h2>
-				<h3>Adaptive, Creative, Collaborative</h3>
-			</div>
-			<div class = "contactDiv">
-				<h1>Contact</h1>
-				<h2>Neil St. Amour</h2>
-				<a href="mailto:neil.stamour@gmail.com" target="blank_">
-					<img src="images/emailB.png" alt="mailto:neil.stamour@gmail.com">
-				</a>
-				<a name="thanks" style="display:none"></a>
-				<a href="https://www.linkedin.com/in/neilstamour" target="blank_">
-					<img src="images/linkedinB.png" alt="https://www.linkedin.com/in/neilstamour">
-				</a>
-				<br><hr><br>
+  <body>
+  	<head>
+  		<title>Neil St. Amour - Contact</title>
+      <link rel="stylesheet" type="text/css" href="css/style.css">
+        <link href='https://fonts.googleapis.com/css?family=Open+Sans:300,400,700,800' rel='stylesheet' type='text/css'>
+  		<link href="images/user-32.ico" rel="shortcut icon" />
+  	</head>
+		<div class="header">
+			<ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a id=href="knives.html">Knives</a></li>
+        <li><a href="steel.html">Steels</a></li>
+        <li><a href="materials.html">Materials</a></li>
+        <li><a href="sheaths.html">Sheaths</a></li>
+				<li><a id="current" href="contact.html">Contact</a></li>
+			</ul>
+		</div>
+    <div class="top">
+        <h1>St. Amour Knives</h1>
+    </div>
+		<div class="contactBody">
+  		<div class="contactBlock">
+  			<h1>Contact</h1>
+  			<h2>Murray St. Amour</h2>
+        <div class="mailB">
+      		<a href="mailto:knives@nrtco.net" target="blank_">
+      			<img src="images/emailB.png" alt="mail icon">
+            <h1>knives@nrtco.net</h1>
+      		</a>
+        </div>
+        <div class="phoneB">
+          <a href="tel:+6135874194">
+      			<img src="images/phoneB.png" alt="phone icon">
+            <h1>613-587-4194</h1>
+          </a>
+        </div>
+  			<br><hr><br>
 				<p>Thank you for your message, I will get back to you as soon as I can!</p>
-				<form action="http://formspree.io/neil.stamour@gmail.com"
-					  method="POST">
-					<label for="name">Name *</label>
-					<input type="text" name="_gotcha" style="display:none" />
-					<input type="text" name="name" required>
-					<label for="email">Email Address *</label>
-					<input type="email" name="_replyto" required>
-					<label for="message">Message *</label>
-					<textarea type="text" name="body" required></textarea>
-					<input type="hidden" name="_next" value="thanks" />
-					<input id="submit" type="submit" value="Send">
-				</form>
-			<div class = "push"></div>
-		</div>
-		<div class = "footer">
-			<a href="mailto:neil.stamour@gmail.com" target="blank_">
-				<img src="images/emailW.png" alt="mailto:neil.stamour@gmail.com">
-			</a>
-			<a href="https://www.linkedin.com/in/neilstamour" target="blank_">
-				<img src="images/linkedinW.png" alt="https://www.linkedin.com/in/neilstamour">
-			</a>
-			<p>Copyright 2015 Neil St. Amour. All rights reserved.</p>
-		</div>
+  			<form action="http://formspree.io/knives@nrtco.net"
+  				  method="POST">
+  				<label for="name">Name *</label>
+  				<input type="text" name="_gotcha" style="display:none" />
+  				<input type="text" name="name" required>
+  				<label for="email">Email Address *</label>
+  				<input type="email" name="_replyto" required>
+  				<label for="message">Message *</label>
+  				<textarea type="text" name="body" required></textarea>
+  				<input type="hidden" name="_next" value="thanks#thanks	" />
+  				<input id="submit" type="submit" value="Send">
+  			</form>
+      </div>
+    </div>
+    <footer>
+      <p>Copyright &copy;
+        <script type="text/javascript">
+        var d = new Date()
+        document.write(d.getFullYear())
+        </script>
+        St. Amour Knives</p>
+    </footer>
 	</body>
 </html>
