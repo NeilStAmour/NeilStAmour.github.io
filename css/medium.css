@@ -65,7 +65,7 @@ header a
     border: 1px solid #ddd;
     display: block;
     text-decoration: none;
-    font-size: 1.4em;
+    font-size: 1.8em;
 }
 header a:hover 
 {
@@ -78,7 +78,7 @@ header a:hover
 }
 .top
 {
-	background-color: #173;
+	background-color: #339966;
 	width: 100%;
 	height: 400px;
     background-image: url("../images/splash1.jpg");
@@ -279,7 +279,7 @@ header a:hover
 	color: #fff;
 	background-color: #444;
 	border: 0.05em solid #444;
-}
+}   
 
 footer
 {
