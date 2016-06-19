@@ -82,6 +82,7 @@ header a:hover
 	width: 100%;
 	height: 400px;
     background-image: url("../images/splash1.jpg");
+    font-family: 'LumberjackRough';
 }
 .top h1
 {
@@ -124,7 +125,7 @@ header a:hover
 }
 .indexBody p
 {
-    margin: 75px 20px;
+    margin: 75px 40px;
     text-align: center;
 }
 .knivesBody
@@ -189,6 +190,10 @@ header a:hover
 .contactBlock h2
 {
 	margin: 5px 10px 5px 10px;
+}
+.contactBlock p
+{
+    padding: 3px 0 3px 0;
 }
 .mailB
 {
@@ -266,7 +271,7 @@ header a:hover
 }
 #submit
 {
-	margin: 10px 10px 10px 10px;
+	margin: 10px 10px 40px 10px;
 	padding: 0;
 	width: 210px;
 	height: 60px;
