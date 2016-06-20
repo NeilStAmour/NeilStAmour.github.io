@@ -125,7 +125,7 @@ header a:hover
 }
 .indexBody p
 {
-    margin: 75px 40px;
+    margin: 75px 4  0px;
     text-align: center;
 }
 .knivesBody
@@ -133,7 +133,7 @@ header a:hover
 }
 .knivesBlock
 {
-	height: 382px;
+	height: 400px;
     width: 760px;
     margin:0 auto;
     
