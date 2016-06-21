@@ -105,17 +105,19 @@ header a:hover
 }
 .indexLeft
 {
-    width: 49%;
+    width: 44%;
     height: 100%;
     float: left;
     text-align: right;
+    margin: 0 0 0 5%;
 }
 .indexRight
 {
-    width: 49%;
+    width: 44%;
     height: 100%;
     float: right;
     text-align: left;
+    margin: 0 5% 0 0;
 }
 .indexBody img
 {
@@ -125,7 +127,7 @@ header a:hover
 }
 .indexBody p
 {
-    margin: 75px 4  0px;
+    margin: 75px 0 0 0;
     text-align: center;
 }
 .knivesBody
@@ -150,7 +152,7 @@ header a:hover
 	margin: 30px 0 0px 0;
 	width: 100%;
 	float: right;
-    font-size: 32px;
+    font-size: 2em;
     font-weight: 700;
     color: #333
 }
@@ -211,7 +213,7 @@ header a:hover
 .mailB h1
 {
 	float: left;
-	font-size: 24px;
+	font-size: 1.6em;
 	color: #000;
 }
 .mailB a:hover
@@ -234,7 +236,7 @@ header a:hover
 .phoneB h1
 {
 	float: left;
-	font-size: 24px;
+	font-size: 1.6em;
 	color: #000;
 }
 .phoneB a:hover
@@ -244,13 +246,13 @@ header a:hover
 .contactBlock p
 {
 	text-align: left;
-	margin: 5px 10px 5px 10px;
-	font-size: 24px;
+	margin: 8px 10px 8px 10px;
+	font-size: 1.6em;
 }
 .contactBlock label
 {
 	margin: 0 0 0 10px;
-	font-size: 18px;
+	font-size: 1.2em;
 	display: block;
 }
 .contactBlock input

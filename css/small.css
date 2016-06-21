@@ -154,9 +154,11 @@ header a:hover
 .knivesFloatLeft p
 {
 	width: 100%;
-    font-size: 32px;
+    font-size: 2em;
     font-weight: 700;
-    color: #333
+    color: #333;
+    margin: 5px 0 0 0;
+    
 }
 .knivesFloatRight
 {
@@ -211,7 +213,7 @@ header a:hover
 .mailB h1
 {
 	float: left;
-	font-size: 24px;
+	font-size: 1.6em;
 	color: #000;
 }
 .mailB a:hover
@@ -234,7 +236,7 @@ header a:hover
 .phoneB h1
 {
 	float: left;
-	font-size: 24px;
+	font-size: 1.6em;
 	color: #000;
 }
 .phoneB a:hover
@@ -245,12 +247,12 @@ header a:hover
 {
 	text-align: left;
 	margin: 5px 10px 5px 10px;
-	font-size: 24px;
+	font-size: 1.6em;
 }
 .contactBlock label
 {
 	margin: 0 0 0 10px;
-	font-size: 18px;
+	font-size: 1.6em;
 	display: block;
 }
 .contactBlock input

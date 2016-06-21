@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html>
+	<body>
+        <head>
+            <title>St. Amour Knives - Knives</title>
+            <link rel='stylesheet' media='screen and (max-width: 779px)' href='css/small.css'/>
+            <link rel='stylesheet' media='screen and (min-width: 780px) and (max-width: 1920px)' href='css/medium.css' />
+            <link href="images/knifeIcon.ico" rel="shortcut icon" />
+        </head>
+        <header>
+            <a id="dropbutton">Menu</a>
+            <ul id="dropdown">
+                <li><a id="current" href="/">Home</a></li>
+                <li><a href="knives">Knives</a></li>
+                <li><a href="contact">Contact</a></li>
+            </ul>
+        </header>
+        <div class="top">
+            <h1>St. Amour Knives</h1>
+        </div>
+        <div class="knivesBody">
+            <div class ="knivesBlock">
+                <div class ="knivesFloatLeft">
+                    <p>01. Drop Point</p>
+                    <p>M4-Lava</p>
+                    <p>CPM-154</p>
+                </div>
+            <div class ="knivesFloatRight">
+                <img src="images/knives/knife01.jpg" alt="alt text">
+            </div>
+            </div>
+            <div class ="knivesBlock">
+                <div class ="knivesFloatLeft">
+                    <p>02. Drop Point</p>
+                    <p>Water Buffalo</p>
+                    <p>Python Sheath</p>
+                    <p>CPM-154</p>
+                </div>
+                <div class ="knivesFloatRight">
+                    <img src="images/knives/knife02.jpg" alt="alt text">
+                </div>
+            </div>
+            <div class ="knivesBlock">
+                <div class ="knivesFloatLeft">
+                    <p>03. Drop Point</p>
+                    <p>Carbon Fiber</p>
+                    <p>Stingray Sheath</p>
+                    <p>CPM-154</p>
+                </div>
+                <div class ="knivesFloatRight">
+                    <img src="images/knives/knife03.jpg" alt="alt text">
+                </div>
+            </div>
+            <div class ="knivesBlock">
+                <div class ="knivesFloatLeft">
+                    <p>04. Drop Point</p>
+                    <p>Desert Ironwood</p>
+                    <p>CPM-154</p>
+                </div>
+                <div class ="knivesFloatRight">
+                    <img src="images/knives/knife04.jpg" alt="alt text">
+                </div>
+            </div>
+            <div class ="knivesBlock">
+                <div class ="knivesFloatLeft">
+                    <p>05. Drop Point</p>
+                    <p>Cocobola</p>
+                    <p>CPM-154</p>
+                </div>
+                <div class ="knivesFloatRight">
+                    <img src="images/knives/knife05.jpg" alt="alt text">
+                </div>
+            </div>
+            <div class ="knivesBlock">
+                <div class ="knivesFloatLeft">
+                    <p>06. Drop Point</p>
+                    <p>Green Canvas Micarta</p>
+                    <p>CPM-154</p>
+                </div>
+                <div class ="knivesFloatRight">
+                    <img src="images/knives/knife06.jpg" alt="alt text">
+                </div>
+            </div>
+            <div class ="knivesBlock">
+                <div class ="knivesFloatLeft">
+                    <p>07. Semi Skinner</p>
+                    <p>Stabilized Maple</p>
+                    <p>CPM-154</p>
+                </div>
+                <div class ="knivesFloatRight">
+                    <img src="images/knives/knife07.jpg" alt="alt text">
+                </div>
+            </div>
+            <div class ="knivesBlock">
+                <div class ="knivesFloatLeft">
+                    <p>08. Semi Skinner</p>
+                    <p>Ebony / Giraffe Bone</p>
+                    <p>CPM-154</p>
+                </div>
+                <div class ="knivesFloatRight">
+                    <img src="images/knives/knife08.jpg" alt="alt text">
+                </div>
+            </div>
+            <div class ="knivesBlock">
+                <div class ="knivesFloatLeft">
+                    <p>09. Drop Point</p>
+                    <p>Sambar Stag</p>
+                    <p>Cobra Sheath</p>
+                    <p>CPM-154</p>
+                </div>
+                <div class ="knivesFloatRight">
+                    <img src="images/knives/knife09.jpg" alt="alt text">
+                </div>
+            </div>
+            <div class ="knivesBlock">
+                <div class ="knivesFloatLeft">
+                    <p>10. Drop Point</p>
+                    <p>Stabilized Giraffe Bone</p>
+                    <p>Stingray Sheath</p>
+                    <p>CPM-154</p>
+                </div>
+                <div class ="knivesFloatRight">
+                    <img src="images/knives/knife10.jpg" alt="alt text">
+                </div>
+            </div>
+            <div class ="knivesBlock">
+                <div class ="knivesFloatLeft">
+                    <p>11. Drop Point</p>
+                    <p>Hornbeam / Water Buffalo</p>
+                    <p>Carp Sheath</p>
+                    <p>CPM-154</p>
+                </div>
+                <div class ="knivesFloatRight">
+                    <img src="images/knives/knife11.jpg" alt="alt text">
+                </div>
+            </div>
+            <div class ="knivesBlock">
+                <div class ="knivesFloatLeft">
+                    <p>12. Drop Point</p>
+                    <p>Stabilized Box Elder</p>
+                    <p>CPM-154</p>
+                </div>
+                <div class ="knivesFloatRight">
+                    <img src="images/knives/knife12.jpg" alt="alt text">
+                </div>
+            </div>
+            <div class ="knivesBlock">
+                <div class ="knivesFloatLeft">
+                    <p>13. Drop Point</p>
+                    <p>Water Buffalo / Bocote</p>
+                    <p>S-30-V</p>
+                </div>
+                <div class ="knivesFloatRight">
+                    <img src="images/knives/knife13.jpg" alt="alt text">
+                </div>
+            </div>
+            <div class ="knivesBlock">
+                <div class ="knivesFloatLeft">
+                    <p>14. Drop Point</p>
+                    <p>Black Canvas Micarta</p>
+                    <p>S-30-V</p>
+                </div>
+                <div class ="knivesFloatRight">
+                    <img src="images/knives/knife14.jpg" alt="alt text">
+                </div>
+            </div>
+            <div class ="knivesBlock">
+                <div class ="knivesFloatLeft">
+                    <p>15. Drop Point</p>
+                    <p>Red Linen Micarta</p>
+                    <p>S-30-V</p>
+                </div>
+                <div class ="knivesFloatRight">
+                    <img src="images/knives/knife15.jpg" alt="alt text">
+                </div>
+            </div>
+            <div class ="knivesBlock">
+                <div class ="knivesFloatLeft">
+                    <p>16. Drop Point</p>
+                    <p>Camo Canvas Micarta</p>
+                    <p>S-30-V</p>
+                </div>
+                <div class ="knivesFloatRight">
+                    <img src="images/knives/knife16.jpg" alt="alt text">
+                </div>
+            </div>
+            <div class ="knivesBlock">
+                <div class ="knivesFloatLeft">
+                    <p>17. Drop Point</p>
+                    <p>Desert Ironwood</p>
+                    <p>CPM-154</p>
+                </div>
+                <div class ="knivesFloatRight">
+                    <img src="images/knives/knife17.jpg" alt="alt text">
+                </div>
+            </div>
+            <div class ="knivesBlock">
+                <div class ="knivesFloatLeft">
+                    <p>18. Semi Skinner</p>
+                    <p>Stabilized Big Leaf Maple</p>
+                    <p>CPM-154</p>
+                </div>
+                <div class ="knivesFloatRight">
+                    <img src="images/knives/knife18.jpg" alt="alt text">
+                </div>
+            </div>
+            <div class ="knivesBlock">
+                <div class ="knivesFloatLeft">
+                    <p>19. Axe and Hunter</p>
+                    <p>Camo Canvas Micarta</p>
+                    <p>154CM(Axe) CPM-154(Hunter)</p>
+                </div>
+                <div class ="knivesFloatRight">
+                    <img src="images/knives/knife19.jpg" alt="alt text">
+                </div>
+            </div>
+            <div class ="knivesBlock">
+                <div class ="knivesFloatLeft">
+                    <p>20. Clip Point</p>
+                    <p>Water Buffalo Bone</p>
+                    <p>154CM</p>
+                </div>
+                <div class ="knivesFloatRight">
+                    <img src="images/knives/knife20.jpg" alt="alt text">
+                </div>
+            </div>
+            <div class ="knivesBlock">
+                <div class ="knivesFloatLeft">
+                    <p>21. Clip Point</p>
+                    <p>Forest Green G-10</p>
+                    <p>CPM-154</p>
+                </div>
+                <div class ="knivesFloatRight">
+                    <img src="images/knives/knife21.jpg" alt="alt text">
+                </div>
+            </div>
+            <div class ="knivesBlock">
+                <div class ="knivesFloatLeft">
+                    <p>22. Drop Point</p>
+                    <p>Camel Bone</p>
+                    <p>154CM</p>
+                </div>
+                <div class ="knivesFloatRight">
+                    <img src="images/knives/knife22.jpg" alt="alt text">
+                </div>
+            </div>
+            <div class ="knivesBlock">
+                <div class ="knivesFloatLeft">
+                    <p>23. Drop Point</p>
+                    <p>Ivory Micarta</p>
+                    <p>154CM</p>
+                </div>
+                <div class ="knivesFloatRight">
+                    <img src="images/knives/knife23.jpg" alt="alt text">
+                </div>
+            </div>
+            <div class ="knivesBlock">
+                <div class ="knivesFloatLeft">
+                    <p>24. Semi Skinner</p>
+                    <p>Water Buffalo / Bocote</p>
+                    <p>CPM-154</p>
+                </div>
+                <div class ="knivesFloatRight">
+                    <img src="images/knives/knife24.jpg" alt="alt text">
+                </div>
+            </div>
+            <div class ="knivesBlock">
+                <div class ="knivesFloatLeft">
+                    <p>25. Drop Point</p>
+                    <p>Forest Green G-10</p>
+                    <p>CPM-154</p>
+                </div>
+                <div class ="knivesFloatRight">
+                    <img src="images/knives/knife25.jpg" alt="alt text">
+                </div>
+            </div>
+            <div class ="knivesBlock">
+                <div class ="knivesFloatLeft">
+                    <p>26. Drop Point</p>
+                    <p>Green Canvas Micarta</p>
+                    <p>CPM-154</p>
+                </div>
+                <div class ="knivesFloatRight">
+                    <img src="images/knives/knife26.jpg" alt="alt text">
+                </div>
+            </div>
+            <div class ="knivesBlock">
+                <div class ="knivesFloatLeft">
+                    <p>27. Trailing Point</p>
+                    <p>Green G-10</p>
+                    <p>CPM-154</p>
+                </div>
+                <div class ="knivesFloatRight">
+                    <img src="images/knives/knife27.jpg" alt="alt text">
+                </div>
+            </div>
+            <div class ="knivesBlock">
+                <div class ="knivesFloatLeft">
+                    <p>28. Drop Point</p>
+                    <p>Ivory Micarta</p>
+                    <p>S-90-V</p>
+                </div>
+                <div class ="knivesFloatRight">
+                    <img src="images/knives/knife28.jpg" alt="alt text">
+                </div>
+            </div>
+            <div class ="knivesBlock">
+                <div class ="knivesFloatLeft">
+                    <p>29. Semi Skinner</p>
+                    <p>Stag</p>
+                    <p>S-90-V</p>
+                </div>
+                <div class ="knivesFloatRight">
+                    <img src="images/knives/knife29.jpg" alt="alt text">
+                </div>
+            </div>
+            <div class ="knivesBlock">
+                <div class ="knivesFloatLeft">
+                    <p>30. Semi Skinner</p>
+                    <p>Stag</p>
+                    <p>Stringray Sheath</p>
+                    <p>S-90-V</p>
+                </div>
+                <div class ="knivesFloatRight">
+                    <img src="images/knives/knife30.jpg" alt="alt text">
+                </div>
+            </div>
+            <div class ="knivesBlock">
+                <div class ="knivesFloatLeft">
+                    <p>31. Drop Point</p>
+                    <p>Black Canvas Micarta</p>
+                    <p>S-90-V</p>
+                </div>
+                <div class ="knivesFloatRight">
+                    <img src="images/knives/knife31.jpg" alt="alt text">
+                </div>
+            </div>
+            <div class ="knivesBlock">
+                <div class ="knivesFloatLeft">
+                    <p>32. Semi Skinner</p>
+                    <p>Carbon Fiber</p>
+                    <p>S-90-V</p>
+                </div>
+                <div class ="knivesFloatRight">
+                    <img src="images/knives/knife32.jpg" alt="alt text">
+                </div>
+            </div>
+            <div class ="knivesBlock">
+                <div class ="knivesFloatLeft">
+                    <p>33. Drop Point</p>
+                    <p>Black Canvas Micarta</p>
+                    <p>S-90-V</p>
+                </div>
+                <div class ="knivesFloatRight">
+                    <img src="images/knives/knife33.jpg" alt="alt text">
+                </div>
+            </div>
+        </div>
+        <footer>
+          <p>Copyright &copy;
+            <script type="text/javascript">
+            var d = new Date()
+            document.write(d.getFullYear())
+            </script>
+            St. Amour Knives</p>
+        </footer>
+	</body>
+</html>
