@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <head>
+  		    <title>St. Amour Knives - Contact</title>
+            <link rel='stylesheet' media='screen and (max-width: 779px)' href='css/small.css'/>
+            <link rel='stylesheet' media='screen and (min-width: 780px) and (max-width: 1920px)' href='css/medium.css' />
+  		    <link href="images/knifeIcon.ico" rel="shortcut icon" />
+      	</head>
+        <header>
+            <a id="dropbutton">Menu</a>
+            <ul id="dropdown">
+                <li><a id="current" href="/">Home</a></li>
+                <li><a href="knives">Knives</a></li>
+                <li><a href="contact">Contact</a></li>
+            </ul>
+        </header>
+    <div class="top">
+        <h1>St. Amour Knives</h1>
+    </div>
+		<div class="contactBody">
+  		    <div class="contactBlock">
+                <h1>Contact</h1>
+                <h2>Murray St. Amour</h2>
+                <div class="mailB">
+                <a href="mailto:knives@nrtco.net" target="blank_">
+                    <img src="images/emailB.png" alt="mail icon">
+                    <h1>knives@nrtco.net</h1>
+                    </a>
+                </div>
+                <div class="phoneB">
+              <a href="tel:+6135874194">
+      			<img src="images/phoneB.png" alt="phone icon">
+                <h1>613-587-4194</h1>
+              </a>
+                </div>
+                <br><hr><br>
+                <p>If you have any questions feel free to contact me.</p>
+                <p>The knives that you see online are only a small selection of what I have built and my inventory is always changing.</p>
+                <br><hr><br>
+                <form action="http://formspree.io/knives@nrtco.net"
+                      method="POST">
+                    <label for="name">Name *</label>
+                    <input type="text" name="_gotcha" style="display:none" />
+                    <input type="text" name="name" required>
+                    <label for="email">Email Address *</label>
+                    <input type="email" name="_replyto" required>
+                    <label for="message">Message *</label>
+                    <textarea type="text" name="body" required></textarea>
+                    <input type="hidden" name="_next" value="thanks" />
+                    <input id="submit" type="submit" value="Send">
+                </form>
+            </div>
+        </div>
+        <footer>
+            <p>Copyright &copy;
+                <script type="text/javascript">
+                    var d = new Date()
+                    document.write(d.getFullYear())
+                </script>
+                St. Amour Knives</p>
+        </footer>
+	</body>
+</html>
