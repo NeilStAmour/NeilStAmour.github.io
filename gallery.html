@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Maravilla Bonaire">
+    <meta name="keywords" content="Villa, Maravilla, Bonaire, Vacation, Rental">
+    <meta name="author" content="Neil St. Amour">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maravilla Bonaire</title>
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800" rel="stylesheet">
+    <link rel='stylesheet' media='screen and (max-width: 1023px)' href='css/medium.css'/>
+    <link rel='stylesheet' media='screen and (min-width: 1024px) and (max-width:1439px)' href='css/medium.css'/>
+    <link rel='stylesheet' media='screen and (min-width: 1440px)' href='css/medium.css'/>
+    <link rel="icon" href="favicon.ico" />
+  </head>
+	<body>
+    <div id="fb-root"></div>
+    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v3.3"></script>
+    <header>
+      <nav>
+        <a href="index.html" class="col-3 home" >Maravilla</a>
+        <a href="gallery.html" class="col-3" >Gallery</a>
+        <a href="attractions.html" class="col-3" >Attractions</a>
+        <a href="contact.html" class="col-3" >Contact</a>
+      </nav>
+    </header>
+    <main class="gallery">
+      <h1>Maravilla Bonaire</h1>
+      <div class="galleryGrid">
+        <img id="image00" class="galleryImage" src="img/attractions00.jpg" alt="image 00">
+        <img id="image01" class="galleryImage" src="img/attractions01.jpg" alt="image 00">
+        <img id="image02" class="galleryImage" src="img/attractions00.jpg" alt="image 00">
+        <img id="image03" class="galleryImage" src="img/attractions00.jpg" alt="image 00">
+        <img id="image04" class="galleryImage" src="img/attractions00.jpg" alt="image 00">
+        <img id="image05" class="galleryImage" src="img/attractions00.jpg" alt="image 00">
+      </div>
+    	<footer>
+    		<div class="col-12">
+          <div class="fb-page" data-href="https://www.facebook.com/elpueblo23/"
+            data-tabs="" data-width="360" data-height="240" data-small-header="true"
+            data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="false">
+            <blockquote cite="https://www.facebook.com/elpueblo23/" class="fb-xfbml-parse-ignore">
+              <a href="https://www.facebook.com/elpueblo23/">Villa MaraVilla Bonaire</a>
+          </blockquote></div>
+    		<p>&copyMaravilla Bonaire &#8226 All Rights Reserved &#8226
+    			<script type="text/javascript">
+    			var d = new Date()
+    			document.write(d.getFullYear())
+    			</script></p>
+    		</div>
+    	</footer>
+    </main>
+    <div id="modalElement" class="modal">
+      <span class="close">&times;</span>
+      <img class="modal-content" id="modalImage">
+      <div id="caption" class="caption"></div>
+    </div>
+    <script>
+      // Get the modal
+      var modalElement = document.getElementById("modalElement");
+
+      // Get the image and insert it inside the modal - use its "alt" text as a caption
+      var images = document.getElementsByClassName("galleryImage");
+      var modalImageElement = document.getElementById("modalImage");
+      var captionText = document.getElementById("caption");
+      for (i = 0; i < images.length; i++) {
+        images[i].onclick = function(){
+          modalElement.style.display = "block";
+          modalImageElement.src = this.src;
+          captionText.innerHTML = this.alt;
+        }
+      }
+      modalElement.onclick = function() {
+        modalElement.style.display = "none";
+      }
+    </script>
+  </body>
+</html>
