@@ -94,12 +94,14 @@ footer {
   text-align: center;
 }
 footer p {
+  padding-top: 10px;
   color: #e0e0e0;
 }
-.fb-page {
+.fb-box {
   margin-bottom: 10px;
-  border: 1px solid white;
-  border-bottom: 2px solid white;
+  width: 95%;
+  max-width: 360px;
+  display: block;
 }
 .home img{
   height: auto;
@@ -146,7 +148,7 @@ footer p {
 }
 .homeGrid {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
   grid-gap: 20px;
   padding: 20px;
 }
@@ -177,7 +179,7 @@ footer p {
 }
 .galleryGrid {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
     grid-gap: 10px;
     padding: 10px;
 }
