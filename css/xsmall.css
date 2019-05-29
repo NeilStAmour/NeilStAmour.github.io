@@ -19,7 +19,7 @@ h1, h2, h3, h4 {
 h1 {
   text-align: center;
   letter-spacing: 0.2em;
-  font-size: 3em;
+  font-size: 2.5em;
 }
 h2 {
   text-align: center;
@@ -33,17 +33,14 @@ h3 {
 }
 h4 {
   text-align: center;
-  font-size: 1.6em;
-  letter-spacing: 0.15em;
+  font-size: 1.4em;
+  letter-spacing: 0.1em;
 }
 h6 {
   color: #2d2d2d;
 }
 p {
   color: #2d2d2d;
-}
-a:visited {
-  color: inherit;
 }
 body {
   background-color: #03C5C5;
@@ -55,25 +52,26 @@ header {
   color: #f0f0f0;
   width: 100%;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  font-size: 1.3em;
+  font-size: 1em;
   z-index: 1;
-  letter-spacing: 0.2em;
+  letter-spacing: 0.05em;
 }
 .navgrid {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     text-align: center;
+    font-size: 1.1em;
 }
 nav a {
   font-weight: 600;
-  padding: 1em 0;
+  padding: 0.9em 0;
   color: #f0f0f0;
 }
 nav a.home {
-  padding: 0.5em 0 0.5em 0.7em;
-  font-size: 1.3em;
+  padding: 0.7em 0 0.7em 0.2em;
   color: #03C5C5;
-  text-align: left;
+  font-weight: 600;
+  font-size: 1.1em;
 }
 a:visited {
   color: inherit;
@@ -82,14 +80,15 @@ nav a:hover {
   color: #03C5C5;
 }
 main {
-  padding-top: 70px;
-  width: 80%;
+  padding-top: 56px;
+  width: 90%;
   max-width: 1400px;
   margin: auto;
   background-color: #f8f8f8;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 footer {
+  font-size: 0.9em;
   width: 100%;
   background-color: #343434;
   color: #eee;
@@ -103,7 +102,7 @@ footer p {
 }
 .fb-box {
   margin: 0 auto 10px auto;
-  width: 95%;
+  width: 300px;
   max-width: 360px;
   display: block;
   border-bottom: 1px solid white;
@@ -113,20 +112,31 @@ footer p {
   margin: 0 0 20px 0;
 }
 .titleImage{
-  padding-top: 40%;
-  background-image: url(../img/titleImage.jpg);
+  padding-top: 80%;
+  background-image: url(../img/titleSmall.jpg);
   background-size: 100%;
   position: relative; /* If you want text inside of it */
 }
 .contactImage{
-  padding-top: 40%;
-  background-image: url(../img/contactImage.jpg);
+  padding-top: 80%;
+  background-image: url(../img/contactSmall.jpg);
   background-size: 100%;
   position: relative; /* If you want text inside of it */
 }
 .titleImage h1 {
+  padding: 0 40px 0 40px;
   position: absolute;
-  top: 20%;
+  top: 10%;
+  left: 0;
+  right: 0;
+  text-shadow:
+    0px 1px 5px #fff,
+    0px -1px 5px #fff;
+}
+.titleImage h4 {
+  padding: 0 20px 0 20px;
+  position: absolute;
+  top: 50%;
   left: 0;
   right: 0;
   text-shadow:
@@ -135,7 +145,7 @@ footer p {
 }
 .contactImage h1 {
   position: absolute;
-  top: 30%;
+  top: 20%;
   left: 0;
   right: 0;
   text-shadow:
@@ -143,6 +153,7 @@ footer p {
     0px -1px 5px #fff;
 }
 .titleImage h4 {
+  padding: 0 40px 0 40px;
   position: absolute;
   top: 50%;
   left: 0;
@@ -153,7 +164,7 @@ footer p {
 }
 .homeGrid {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr;
   grid-gap: 20px;
   padding: 20px;
 }
@@ -169,7 +180,7 @@ footer p {
 }
 .amenitiesGrid {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr;
   grid-gap: 15px 20px;
   padding: 10px 40px 20px 40px;
 }
@@ -184,7 +195,7 @@ footer p {
 }
 .galleryGrid {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
     grid-gap: 10px;
     padding: 10px;
 }
@@ -324,9 +335,9 @@ footer p {
   padding: 30px;
 }
 .contact h6 {
-  width: 70%;
-  margin: 40px auto;
-  font-size: 1.5em;
+  width: 90%;
+  margin: 10px auto;
+  font-size: 1.25em;
 }
 .contact a {
   text-decoration: underline;
