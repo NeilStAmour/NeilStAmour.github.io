@@ -1,9 +1,3 @@
-/*
-#C55E55
-#03C5C5
-#9ea9b2
-*/
-
 * {
   padding: 0;
   margin: 0;
@@ -19,8 +13,9 @@ h1, h2, h3, h4 {
 h1 {
   text-align: center;
   letter-spacing: 0.2em;
-  font-size: 3em;
+  font-size: 2.5em;
 }
+
 h2 {
   text-align: center;
   font-size: 1.6em;
@@ -33,17 +28,14 @@ h3 {
 }
 h4 {
   text-align: center;
-  font-size: 1.6em;
-  letter-spacing: 0.15em;
+  font-size: 1.4em;
+  letter-spacing: 0.1em;
 }
 h6 {
   color: #2d2d2d;
 }
 p {
   color: #2d2d2d;
-}
-a:visited {
-  color: inherit;
 }
 body {
   background-color: #03C5C5;
@@ -55,25 +47,26 @@ header {
   color: #f0f0f0;
   width: 100%;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  font-size: 1.3em;
+  font-size: 1em;
   z-index: 1;
-  letter-spacing: 0.2em;
+  letter-spacing: 0.05em;
 }
 .navgrid {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     text-align: center;
+    font-size: 1.1em;
 }
 nav a {
   font-weight: 600;
-  padding: 1em 0;
+  padding: 0.9em 0;
   color: #f0f0f0;
 }
 nav a.home {
-  padding: 0.5em 0 0.5em 0.7em;
-  font-size: 1.3em;
+  padding: 0.7em 0 0.7em 0.2em;
   color: #03C5C5;
-  text-align: left;
+  font-weight: 600;
+  font-size: 1.1em;
 }
 a:visited {
   color: inherit;
@@ -82,14 +75,15 @@ nav a:hover {
   color: #03C5C5;
 }
 main {
-  padding-top: 70px;
-  width: 80%;
+  padding-top: 56px;
+  width: 90%;
   max-width: 1400px;
   margin: auto;
   background-color: #f8f8f8;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 footer {
+  font-size: 0.9em;
   width: 100%;
   background-color: #343434;
   color: #eee;
@@ -103,7 +97,7 @@ footer p {
 }
 .fb-box {
   margin: 0 auto 10px auto;
-  width: 95%;
+  width: 300px;
   max-width: 360px;
   display: block;
   border-bottom: 1px solid white;
@@ -113,29 +107,21 @@ footer p {
   margin: 0 0 20px 0;
 }
 .titleImage{
-  padding-top: 40%;
-  background-image: url(../img/titleImage.jpg);
+  padding-top: 80%;
+  background-image: url(../img/titleSmall.jpg);
   background-size: 100%;
   position: relative; /* If you want text inside of it */
 }
 .contactImage{
-  padding-top: 40%;
-  background-image: url(../img/contactImage.jpg);
+  padding-top: 80%;
+  background-image: url(../img/contactSmall.jpg);
   background-size: 100%;
   position: relative; /* If you want text inside of it */
 }
 .titleImage h1 {
+  padding: 0 40px 0 40px;
   position: absolute;
-  top: 20%;
-  left: 0;
-  right: 0;
-  text-shadow:
-    0px 1px 5px #fff,
-    0px -1px 5px #fff;
-}
-.contactImage h1 {
-  position: absolute;
-  top: 30%;
+  top: 10%;
   left: 0;
   right: 0;
   text-shadow:
@@ -143,6 +129,7 @@ footer p {
     0px -1px 5px #fff;
 }
 .titleImage h4 {
+  padding: 0 20px 0 20px;
   position: absolute;
   top: 50%;
   left: 0;
@@ -151,9 +138,19 @@ footer p {
     0px 1px 5px #fff,
     0px -1px 5px #fff;
 }
+.contactImage h1 {
+  padding: 0 40px 0 40px;
+  position: absolute;
+  top: 20%;
+  left: 0;
+  right: 0;
+  text-shadow:
+    0px 1px 5px #fff,
+    0px -1px 5px #fff;
+}
 .homeGrid {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr;
   grid-gap: 20px;
   padding: 20px;
 }
@@ -169,7 +166,7 @@ footer p {
 }
 .amenitiesGrid {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr;
   grid-gap: 15px 20px;
   padding: 10px 40px 20px 40px;
 }
@@ -184,13 +181,12 @@ footer p {
 }
 .galleryGrid {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
     grid-gap: 10px;
     padding: 10px;
 }
 .galleryImage {
   width: 100.0%;
-/*  height: auto;*/
   border-radius: 5px;
   cursor: pointer;
   transition: 0.3s;
@@ -287,7 +283,7 @@ footer p {
   cursor: pointer;
 }
 .attractions h1 {
-  margin: 40px 0 20px 0;
+  margin: 40px 10px 20px 10px;
 }
 .attractionsGrid {
   width: 100%;
@@ -324,9 +320,9 @@ footer p {
   padding: 30px;
 }
 .contact h6 {
-  width: 70%;
-  margin: 40px auto;
-  font-size: 1.5em;
+  width: 90%;
+  margin: 10px auto;
+  font-size: 1.25em;
 }
 .contact a {
   text-decoration: underline;
@@ -341,4 +337,234 @@ footer p {
   display: block;
   margin: 20px auto 0 auto;
   width: 100%;
+}
+@media only screen and (min-width: 720px) and (max-width:1023px) {
+  h1 {
+    font-size: 2.7em;
+  }
+  h4 {
+    font-size: 1.6em;
+    letter-spacing: 0.15em;
+  }
+  header {
+    font-size: 1.3em;
+    letter-spacing: 0.2em;
+  }
+  .navgrid {
+      font-size: 1em;
+  }
+  nav a {
+    padding: 1em 0;
+  }
+  nav a.home {
+    padding: 0.5em 0 0.5em 0.em;
+    font-size: 1.3em;
+    text-align: left;
+  }
+  main {
+    padding-top: 70px;
+    width: 80%;
+  }
+  footer {
+    font-size: 1em;
+  }
+  .fb-box {
+    width: 95%;
+  }
+  .titleImage{
+    padding-top: 40%;
+    background-image: url(../img/titleImage.jpg);
+  }
+  .contactImage{
+    padding-top: 40%;
+    background-image: url(../img/contactImage.jpg);
+  }
+  .titleImage h1 {
+    padding: 0 0px 0 0px;
+    top: 20%;
+  }
+  .contactImage h1 {
+    padding: 0 0px 0 0px;
+    top: 30%;
+  }
+  .homeGrid {
+    grid-template-columns: 1fr 1fr;
+  }
+  .amenitiesGrid {
+    grid-template-columns: 1fr 1fr;
+  }
+  .galleryGrid {
+      grid-template-columns: 1fr 1fr;
+  }
+  .contact h6 {
+    width: 70%;
+    margin: 40px auto;
+    font-size: 1.5em;
+  }
+}
+@media only screen and (min-width: 1024px) and (max-width:1439px) {
+  h1 {
+    font-size: 3em;
+  }
+  h4 {
+    font-size: 1.6em;
+    letter-spacing: 0.15em;
+  }
+  header {
+    font-size: 1.5em;
+    letter-spacing: 0.2em;
+  }
+  .navgrid {
+      grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  }
+  nav a.home {
+    padding: 0.5em 0 0.5em 0.7em;
+    font-size: 1.3em;
+    text-align: left;
+  }
+  main {
+    padding-top: 76px;
+    width: 80%;
+  }
+  footer {
+    font-size: 1em;
+  }
+  .fb-box {
+    width: 95%;
+  }
+  .titleImage{
+    padding-top: 40%;
+    background-image: url(../img/titleImage.jpg);
+  }
+  .contactImage{
+    padding-top: 40%;
+    background-image: url(../img/contactImage.jpg);
+  }
+  .titleImage h1 {
+    padding: 0;
+    top: 20%;
+  }
+  .contactImage h1 {
+    padding: 0;
+    top: 30%;
+  }
+  .titleImage h4 {
+    padding: 0;
+    top: 50%;
+  }
+  .homeGrid {
+    grid-template-columns: 1fr 1fr;
+  }
+  .amenitiesGrid {
+    grid-template-columns: 1fr 1fr;
+  }
+  .galleryGrid {
+      grid-template-columns: 1fr 1fr;
+  }
+  .attractionsGrid {
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  }
+  .leftText{
+    grid-column: 1 / 3;
+  }
+  .leftImg{
+    grid-column: 1 / 4;
+  }
+  .rightText{
+    grid-column: 4 / 6;
+  }
+  .rightImg{
+    grid-column: 3 / 6;
+  }
+  .contact h6 {
+    width: 60%;
+    margin: 40px auto;
+    font-size: 1.5em;
+  }
+}
+@media only screen and (min-width: 1440px){
+  h1 {
+    font-size: 3em;
+  }
+  h4 {
+    font-size: 1.6em;
+    letter-spacing: 0.15em;
+  }
+  header {
+    font-size: 1.6em;
+    letter-spacing: 0.2em;
+  }
+  .navgrid {
+      grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+      font-size: 1em;
+  }
+  nav a {
+    padding: 0.95em 0;
+  }
+  nav a.home {
+    padding: 0.5em 0 0.5em 0.8em;
+    font-size: 1.3em;
+    text-align: left;
+  }
+  main {
+    padding-top: 83px;
+    width: 80%;
+  }
+  footer {
+    font-size: 1em;
+  }
+  .fb-box {
+    width: 95%;
+  }
+  .titleImage{
+    padding-top: 40%;
+    background-image: url(../img/titleImage.jpg);
+  }
+  .contactImage{
+    padding-top: 40%;
+    background-image: url(../img/contactImage.jpg);
+  }
+  .titleImage h1 {
+    padding: 0;
+    top: 30%;
+  }
+  .titleImage h4 {
+    padding: 0;
+  }
+  .contactImage h1 {
+    padding: 0;
+    top: 30%;
+  }
+  .homeGrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 20px;
+    padding: 20px;
+  }
+  .amenitiesGrid {
+    grid-template-columns: 1fr 1fr;
+  }
+  .galleryGrid {
+      grid-template-columns: 1fr 1fr 1fr;
+  }
+  .attractionsGrid {
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  }
+  .leftText{
+    grid-column: 1 / 3;
+  }
+  .leftImg{
+    grid-column: 1 / 4;
+  }
+  .rightText{
+    grid-column: 4 / 6;
+  }
+  .rightImg{
+    grid-column: 3 / 6;
+  }
+  .contact h6 {
+    width: 60%;
+    margin: 40px auto;
+    font-size: 1.5em;
+  }
 }
