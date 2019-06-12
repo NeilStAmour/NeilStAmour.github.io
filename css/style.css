@@ -38,12 +38,12 @@ p {
   color: #2d2d2d;
 }
 body {
-  background-color: #03C5C5;
+  background-color: #03d6d6;
   width: 100%;
 }
 header {
   position:fixed;
-  background-color: #C55E55;
+  background-color: #d25353;
   color: #f0f0f0;
   width: 100%;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -64,7 +64,7 @@ nav a {
 }
 nav a.home {
   padding: 0.7em 0 0.7em 0.2em;
-  color: #03C5C5;
+  color: #03d6d6;
   font-weight: 600;
   font-size: 1.1em;
 }
@@ -72,7 +72,7 @@ a:visited {
   color: inherit;
 }
 nav a:hover {
-  color: #03C5C5;
+  color: #03d6d6;
 }
 main {
   padding-top: 56px;
@@ -311,7 +311,7 @@ footer p {
   color: #2d2d2d;
 }
 .attractionsTile a:hover {
-  color: #03C5C5;
+  color: #03d6d6;
   text-decoration: underline;
 }
 .attractionsTile p {
@@ -331,7 +331,7 @@ footer p {
   color: #2d2d2d;
 }
 .contact a:hover {
-  color: #03C5C5;
+  color: #03d6d6;
 }
 .gCal {
   display: block;
