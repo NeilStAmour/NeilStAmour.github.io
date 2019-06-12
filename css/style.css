@@ -52,10 +52,10 @@ header {
   letter-spacing: 0.05em;
 }
 .navgrid {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    text-align: center;
-    font-size: 1.1em;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  text-align: center;
+  font-size: 1.1em;
 }
 nav a {
   font-weight: 600;
