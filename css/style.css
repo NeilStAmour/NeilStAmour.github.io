@@ -74,8 +74,45 @@ a:visited {
 nav a:hover {
   color: #03d6d6;
 }
-main {
+.navFiller {
   padding-top: 56px;
+  background-color: #d25353;
+}
+#browserUpdate {
+  position: relative;
+  background-color: #e91e63;
+  width: 100%;
+  padding: 15px 10% 10px 5%;
+  font-size: 1.1em;
+}
+#browserUpdate p {
+  color: #fff;
+  text-align: center;
+}
+#browserUpdate a {
+  text-decoration: underline;
+  color: #fff;
+}
+#browserUpdate a:hover,
+#browserUpdate a:focus {
+  color: #ccc;
+}
+#browserUpdate span {
+  position: absolute;
+  top: 0;
+  right: 10px;
+  font-size: 40px;
+  font-weight: 400;
+  transition: 0.3s;
+  color: #fff;
+}
+#browserUpdate span:hover,
+#browserUpdate span:focus {
+  color: #ccc;
+  text-decoration: none;
+  cursor: pointer;
+}
+main {
   width: 90%;
   max-width: 1400px;
   margin: auto;
@@ -92,7 +129,6 @@ footer {
   text-align: center;
 }
 footer p {
-  padding-top: 10px;
   color: #e0e0e0;
 }
 .fb-box {
@@ -177,7 +213,7 @@ footer p {
   list-style-position: inside;
 }
 .gallery h1 {
-  margin: 40px 0 20px 0;
+  padding: 40px 0 20px 0;
 }
 .galleryGrid {
     display: grid;
@@ -283,7 +319,7 @@ footer p {
   cursor: pointer;
 }
 .attractions h1 {
-  margin: 40px 10px 20px 10px;
+  padding: 40px 10px 20px 10px;
 }
 .attractionsGrid {
   width: 100%;
@@ -361,8 +397,13 @@ footer p {
     font-size: 1.3em;
     text-align: left;
   }
-  main {
+  .navFiller {
     padding-top: 70px;
+  }
+  #browserUpdate {
+    padding: 15px 10% 10px 5%;
+  }
+  main {
     width: 80%;
   }
   footer {
@@ -422,8 +463,14 @@ footer p {
     font-size: 1.3em;
     text-align: left;
   }
-  main {
+  .navFiller {
     padding-top: 76px;
+  }
+  #browserUpdate {
+    padding: 15px 10% 10px 10%;
+    font-size: 1.2em;
+  }
+  main {
     width: 80%;
   }
   footer {
@@ -506,8 +553,14 @@ footer p {
     font-size: 1.3em;
     text-align: left;
   }
-  main {
+  .navFiller {
     padding-top: 83px;
+  }
+  #browserUpdate {
+    padding: 15px 10% 10px 10%;
+    font-size: 1.2em;
+  }
+  main {
     width: 80%;
   }
   footer {

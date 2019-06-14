@@ -22,6 +22,20 @@
 	<body>
     <div id="fb-root"></div>
     <script defer crossorigin="anonymous" src="https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v3.3"></script>
+    <script async>
+      var $buoop = {required:{e:16,f:52,c:57,s:10.3,o:44,o_a:46,samsung:6.2},
+      onshow: function $showBanner(){
+        document.getElementById("browserUpdate").style.display = "block";
+      },
+      nomessage:true,insecure:true,api:2019.06 };
+      function $buo_f(){
+       var e = document.createElement("script");
+       e.src = "https://www.browser-update.org/update.min.js";
+       document.body.appendChild(e);
+      };
+      try {document.addEventListener("DOMContentLoaded", $buo_f,false)}
+      catch(e){window.attachEvent("onload", $buo_f)}
+    </script>
     <header>
       <nav class="navgrid">
         <a href="../" class="home navTile" >Maravilla</a>
@@ -30,15 +44,110 @@
         <a href="../contact/" class="navTile" >Contact</a>
       </nav>
     </header>
+    <div class="navFiller"></div>
+    <div id="browserUpdate" style="display: none">
+      <span onclick="this.parentElement.style.display='none'">&times;</span>
+      <p> Your browser is out of date and no longer supported. <br>
+      Please update or download a modern browser to ensure the best and safest experience on the web. <br>
+      For security and speed we recommend <a href="https://www.mozilla.org/firefox/">Mozilla Firefox</a>.</p>
+    </div>
     <main class="gallery">
       <h1>Maravilla Bonaire</h1>
       <div class="galleryGrid">
-        <img id="image00" class="galleryImage" src="img/attractions00.jpg" alt="image 00">
-        <img id="image01" class="galleryImage" src="img/attractions01.jpg" alt="image 00">
-        <img id="image02" class="galleryImage" src="img/attractions00.jpg" alt="image 00">
-        <img id="image03" class="galleryImage" src="img/attractions00.jpg" alt="image 00">
-        <img id="image04" class="galleryImage" src="img/attractions00.jpg" alt="image 00">
-        <img id="image05" class="galleryImage" src="img/attractions00.jpg" alt="image 00">
+        <picture>
+          <source srcset="img/gallery00.webp" type="image/webp">
+          <source srcset="img/gallery00.jpeg" type="image/jpeg">
+          <img id="image00" class="galleryImage" src="img/gallery00.jpeg" alt="image 00">
+        </picture>
+        <picture>
+          <source srcset="img/gallery01.webp" type="image/webp">
+          <source srcset="img/gallery01.jpeg" type="image/jpeg">
+          <img id="image01" class="galleryImage" src="img/gallery01.jpeg" alt="image 00">
+        </picture>
+        <picture>
+          <source srcset="img/gallery02.webp" type="image/webp">
+          <source srcset="img/gallery02.jpeg" type="image/jpeg">
+          <img id="image02" class="galleryImage" src="img/gallery02.jpeg" alt="image 00">
+        </picture>
+        <picture>
+          <source srcset="img/gallery03.webp" type="image/webp">
+          <source srcset="img/gallery03.jpeg" type="image/jpeg">
+          <img id="image03" class="galleryImage" src="img/gallery03.jpeg" alt="image 00">
+        </picture>
+        <picture>
+          <source srcset="img/gallery04.webp" type="image/webp">
+          <source srcset="img/gallery04.jpeg" type="image/jpeg">
+          <img id="image04" class="galleryImage" src="img/gallery04.jpeg" alt="image 00">
+        </picture>
+        <picture>
+          <source srcset="img/gallery17.webp" type="image/webp">
+          <source srcset="img/gallery17.jpeg" type="image/jpeg">
+          <img id="image10" class="galleryImage" src="img/gallery17.jpeg" alt="image 00">
+        </picture>
+        <picture>
+          <source srcset="img/gallery13.webp" type="image/webp">
+          <source srcset="img/gallery13.jpeg" type="image/jpeg">
+          <img id="image13" class="galleryImage" src="img/gallery13.jpeg" alt="image 00">
+        </picture>
+        <picture>
+          <source srcset="img/gallery05.webp" type="image/webp">
+          <source srcset="img/gallery05.jpeg" type="image/jpeg">
+          <img id="image05" class="galleryImage" src="img/gallery05.jpeg" alt="image 00">
+        </picture>
+        <picture>
+          <source srcset="img/gallery06.webp" type="image/webp">
+          <source srcset="img/gallery06.jpeg" type="image/jpeg">
+          <img id="image06" class="galleryImage" src="img/gallery06.jpeg" alt="image 00">
+        </picture>
+        <picture>
+          <source srcset="img/gallery07.webp" type="image/webp">
+          <source srcset="img/gallery07.jpeg" type="image/jpeg">
+          <img id="image07" class="galleryImage" src="img/gallery07.jpeg" alt="image 00">
+        </picture>
+        <picture>
+          <source srcset="img/gallery08.webp" type="image/webp">
+          <source srcset="img/gallery08.jpeg" type="image/jpeg">
+          <img id="image08" class="galleryImage" src="img/gallery08.jpeg" alt="image 00">
+        </picture>
+        <picture>
+          <source srcset="img/gallery09.webp" type="image/webp">
+          <source srcset="img/gallery09.jpeg" type="image/jpeg">
+          <img id="image09" class="galleryImage" src="img/gallery09.jpeg" alt="image 00">
+        </picture>
+        <picture>
+          <source srcset="img/gallery10.webp" type="image/webp">
+          <source srcset="img/gallery10.jpeg" type="image/jpeg">
+          <img id="image10" class="galleryImage" src="img/gallery10.jpeg" alt="image 00">
+        </picture>
+        <picture>
+          <source srcset="img/gallery11.webp" type="image/webp">
+          <source srcset="img/gallery11.jpeg" type="image/jpeg">
+          <img id="image11" class="galleryImage" src="img/gallery11.jpeg" alt="image 00">
+        </picture>
+        <picture>
+          <source srcset="img/gallery12.webp" type="image/webp">
+          <source srcset="img/gallery12.jpeg" type="image/jpeg">
+          <img id="image12" class="galleryImage" src="img/gallery12.jpeg" alt="image 00">
+        </picture>
+        <picture>
+          <source srcset="img/gallery14.webp" type="image/webp">
+          <source srcset="img/gallery14.jpeg" type="image/jpeg">
+          <img id="image14" class="galleryImage" src="img/gallery14.jpeg" alt="image 00">
+        </picture>
+        <picture>
+          <source srcset="img/gallery15.webp" type="image/webp">
+          <source srcset="img/gallery15.jpeg" type="image/jpeg">
+          <img id="image15" class="galleryImage" src="img/gallery15.jpeg" alt="image 00">
+        </picture>
+        <picture>
+          <source srcset="img/gallery16.webp" type="image/webp">
+          <source srcset="img/gallery16.jpeg" type="image/jpeg">
+          <img id="image16" class="galleryImage" src="img/gallery16.jpeg" alt="image 00">
+        </picture>
+        <picture>
+          <source srcset="img/gallery00.webp" type="image/webp">
+          <source srcset="img/gallery00.jpeg" type="image/jpeg">
+        </picture>
       </div>
     	<footer>
         <div class="fb-box">

@@ -22,6 +22,21 @@
 	<body>
     <div id="fb-root"></div>
     <script defer crossorigin="anonymous" src="https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v3.3"></script>
+    <script async>
+      var $buoop = {required:{e:16,f:52,c:57,s:10.3,o:44,o_a:46,samsung:6.2},
+      onshow: function $showBanner(){
+        document.getElementById("browserUpdate").style.display = "block";
+      },
+      nomessage:true,insecure:true,api:2019.06 };
+      function $buo_f(){
+       var e = document.createElement("script");
+       e.src = "https://www.browser-update.org/update.min.js";
+       document.body.appendChild(e);
+      };
+
+      try {document.addEventListener("DOMContentLoaded", $buo_f,false)}
+      catch(e){window.attachEvent("onload", $buo_f)}
+    </script>
     <header>
       <nav class="navgrid">
         <a href="/" class="home navTile" >Maravilla</a>
@@ -30,6 +45,13 @@
         <a href="contact/" class="navTile" >Contact</a>
       </nav>
     </header>
+    <div class="navFiller"></div>
+    <div id="browserUpdate" style="display: none">
+      <span onclick="this.parentElement.style.display='none'">&times;</span>
+      <p> Your browser is out of date and no longer supported. <br>
+      Please update or download a modern browser to ensure the best and safest experience on the web. <br>
+      For security and speed we recommend <a href="https://www.mozilla.org/firefox/">Mozilla Firefox</a>.</p>
+    </div>
     <main class="home">
       <div class="titleImage">
         <h1>Maravilla Bonaire</h1>
