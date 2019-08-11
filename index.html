@@ -15,8 +15,8 @@
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
     <link rel="manifest" href="/site.webmanifest">
-    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
-    <meta name="msapplication-TileColor" content="#b91d47">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#03d6d6">
+    <meta name="msapplication-TileColor" content="#ce4545">
     <meta name="theme-color" content="#03d6d6">
   </head>
 	<body>
@@ -27,7 +27,7 @@
       onshow: function $showBanner(){
         document.getElementById("browserUpdate").style.display = "block";
       },
-      nomessage:true,insecure:true,api:2019.06 };
+      nomessage:true,test:false,insecure:true,api:2019.06 };
       function $buo_f(){
        var e = document.createElement("script");
        e.src = "https://www.browser-update.org/update.min.js";
@@ -39,10 +39,12 @@
     </script>
     <header>
       <nav class="navgrid">
-        <a href="/" class="home navTile" >Maravilla</a>
-        <a href="gallery/" class="navTile" >Gallery</a>
-        <a href="attractions/" class="navTile" >Attractions</a>
-        <a href="contact/" class="navTile" >Contact</a>
+        <a href="/" class="home navTile" >
+              <img src="img/logo.svg" id="logo" alt="Maravilla Bonaire Logo">
+              <h5>Maravilla</h5></a>
+        <a href="gallery/" class="navTile" ><h5>Gallery</h5></a>
+        <a href="attractions/" class="navTile" ><h5>Attractions</h5></a>
+        <a href="contact/" class="navTile" ><h5>Contact</h5></a>
       </nav>
     </header>
     <div class="navFiller"></div>
@@ -111,7 +113,7 @@
         height="450"
         frameborder="0" style="border:0"
         src="https://www.google.com/maps/embed/v1/place?key=AIzaSyBKkFA0cJXiWZrDbBznde3EYnp3RBYisXA
-          &q=place_id:ChIJ7SQCP-wZg44RbR9p5TgCU5Q" allowfullscreen>
+          &q=place_id:ChIJi0r_7_sZg44RzQfvYmiKR0s" allowfullscreen>
       </iframe>
     	<footer>
         <div class="fb-box">
