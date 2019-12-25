@@ -152,14 +152,12 @@ footer p {
 .titleImage{
   padding-top: 80%;
   background-image: url(../img/titleSmall.jpg);
-  background-image: url(../img/titleSmall.webp);
   background-size: 100%;
   position: relative; /* If you want text inside of it */
 }
 .contactImage{
   padding-top: 80%;
   background-image: url(../img/contactSmall.jpg);
-  background-image: url(../img/contactSmall.webp);
   background-size: 100%;
   position: relative; /* If you want text inside of it */
 }
@@ -431,12 +429,10 @@ footer p {
   .titleImage{
     padding-top: 40%;
     background-image: url(../img/titleImage.jpg);
-    background-image: url(../img/titleImage.webp);
   }
   .contactImage{
     padding-top: 40%;
     background-image: url(../img/contactImage.jpg);
-    background-image: url(../img/contactImage.webp);
   }
   .titleImage h1 {
     padding: 0 0px 0 0px;
@@ -510,12 +506,10 @@ footer p {
   .titleImage{
     padding-top: 40%;
     background-image: url(../img/titleImage.jpg);
-    background-image: url(../img/titleImage.webp);
   }
   .contactImage{
     padding-top: 40%;
     background-image: url(../img/contactImage.jpg);
-    background-image: url(../img/contactImage.webp);
   }
   .titleImage h1 {
     padding: 0;
@@ -606,12 +600,10 @@ footer p {
   .titleImage{
     padding-top: 40%;
     background-image: url(../img/titleImage.jpg);
-    background-image: url(../img/titleImage.webp);
   }
   .contactImage{
     padding-top: 40%;
     background-image: url(../img/contactImage.jpg);
-    background-image: url(../img/contactImage.webp);
   }
   .titleImage h1 {
     padding: 0;
